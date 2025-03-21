@@ -1,4 +1,78 @@
-body {
+/* Reset e estilos básicos */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  padding: 1rem;
+}
+
+/* Navbar */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #052659;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.navbar-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.navbar-menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #c1e8ff;
+  display: flex;
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000000;
+  padding: 1rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
 }
