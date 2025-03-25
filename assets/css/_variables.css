@@ -1,0 +1,31 @@
+/* Variáveis CSS */
+
+/* Hover Colors */
+:root {
+  /* Main Colors */
+  --color-primary: #052659;
+  --color-secondary: #021024;
+  --color-tertiary: #7da0ca;
+  --color-quaternary: #c1e8ff;
+
+  /* Dark Colors */
+  --color-dark: #000;
+  --color-dark-2: #6b7588;
+  --color-dark-3: #8f90a6;
+  --color-dark-4: #c7c9d9;
+
+  /* Light Colors */
+  --color-light: #fff;
+  --color-light-2: #f2f2f5;
+  --color-light-3: #ebebf0;
+  --color-light-4: #dde5e9;
+
+  /* Alert Colors */
+  --color-error: #ff3b3b;
+  --color-warning: #fc0;
+  --color-info: #0063f7;
+  --color-success: #06c270;
+
+  /* Hover Color */
+  --hover-color-primary: #7da0ca;
+}
