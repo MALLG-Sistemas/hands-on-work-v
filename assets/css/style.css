@@ -18,17 +18,18 @@ header {
 
 /* Navbar */
 .navbar {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   background-color: #052659;
   border-radius: 20px 20px 0px 0px;
 }
 
+/* Navbar Header */
 .navbar-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 2rem;
+  padding: 0.25rem 2rem;
 }
 
 .navbar-social {
@@ -37,14 +38,19 @@ header {
   gap: 1rem;
 }
 
+.navbar-social-link {
+  display: flex;
+}
+
 .navbar-title {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   color: #fff;
 }
 
+/* Navbar Menu - Navbar abaixo */
 .navbar-menu {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   border-radius: 0px 0px 20px 20px;
   background-color: #c1e8ff;
@@ -62,6 +68,7 @@ header {
   align-items: center;
   width: 100%;
   text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .navbar-link {
