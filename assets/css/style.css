@@ -1,14 +1,7 @@
-/* Reset e estilos básicos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.6;
-  background-color: #f8f8f8;
+  background-color: #fff;
   color: #333;
 }
 
