@@ -12,8 +12,6 @@ body {
 /* Navbar principal com classes do bootstrap */
 .navbar-header-primary {
   top: 25px;
-  max-width: 1300px;
-  margin: 0 auto;
   height: 35px;
   background-color: #052659;
   border-radius: 20px 20px 0 0;
@@ -41,8 +39,6 @@ body {
 
 /* Navbar com menu de navegação */
 .navbar-menu-nav {
-  max-width: 1300px;
-  margin: 0 auto;
   height: 56px;
   border-radius: 0px 0px 20px 20px;
   background: #c1e8ff;
@@ -50,7 +46,6 @@ body {
 
 /* Styles navbar menu de navegação mobile */
 @media screen and (max-width: 430px) {
-
   .navbar-header-primary {
     width: 90%;
   }
@@ -103,3 +98,7 @@ body {
 .bi-arrow-right {
   margin-left: 10px;
 }
+
+/* ------------------- */
+/* Seção Sobre/Textos */
+/* ------------------- */
