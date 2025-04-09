@@ -14,72 +14,46 @@ header {
   z-index: 1000;
 }
 
-/* Navbar */
-.navbar {
+/* Navbar principal com classes do bootstrap */
+.navbar-header-primary {
   max-width: 1300px;
   margin: 0 auto;
+  max-height: 35px;
   background-color: #052659;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0 0;
 }
 
-/* Navbar Header */
-.navbar-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.25rem 2rem;
+.navbar-header-general {
+  max-height: 35px;
 }
 
-.navbar-social {
+.navbar-social-medias {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
-.navbar-social-link {
-  display: flex;
-}
-
-.navbar-title {
-  font-family: "Inter", sans-serif;
-  font-size: 1rem;
+.navbar-social-link i {
   color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
-/* Navbar Menu - Navbar abaixo */
-.navbar-menu {
+.navbar-title-primary {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+}
+
+/* Navbar com menu de navegação */
+.navbar-menu-nav {
   max-width: 1300px;
   margin: 0 auto;
+  height: 56px;
   border-radius: 0px 0px 20px 20px;
-  background-color: #c1e8ff;
-  display: flex;
-}
-
-.navbar-items {
-  list-style: none;
-  display: flex;
-}
-
-.navbar-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  text-transform: uppercase;
-  font-size: 1rem;
-}
-
-.navbar-link {
-  text-decoration: none;
-  color: #000000;
-  padding: 1rem 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.navbar-link:hover,
-.navbar-link:focus {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+  background: #c1e8ff;
 }
 
 /* ------------------- */
