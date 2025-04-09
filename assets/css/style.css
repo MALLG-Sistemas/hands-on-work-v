@@ -102,3 +102,15 @@ body {
 /* ------------------- */
 /* Seção Info */
 /* ------------------- */
+
+/* --------------- */
+/* Footer */
+/* --------------- */
+
+.section-footer {
+  background-color: #021024;
+}
+
+.btn-footer {
+  background-color: #c1e8ff;
+}
