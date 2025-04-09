@@ -1,0 +1,118 @@
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+/* Navbar principal com classes do bootstrap */
+.navbar-header-primary {
+    max-width: 1300px;
+    margin: 0 auto;
+    max-height: 35px;
+    background-color: #052659;
+    border-radius: 20px 20px 0 0;
+}
+
+.navbar-header-general {
+    max-height: 35px;
+}
+
+.navbar-social-medias {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar-social-link i {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-title-primary {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+/* Navbar com menu de navegação */
+.navbar-menu-nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 56px;
+    border-radius: 0px 0px 20px 20px;
+    background: #c1e8ff;
+}
+
+
+/* ------------------- */
+/* Seção Banner */
+/* ------------------- */
+
+/* Seção banner com a imagem de fundo */
+.banner {
+    background: url("/hands-on-work-v/assets/images/tartaruga-oliva.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: bottom;
+    padding: 11rem 8rem 11rem 7rem;
+    color: #ffffff;
+    height: 900px;
+    width: 100%;
+}
+
+.heading {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.75rem;
+}
+
+.botton-banner {
+    display: flex;
+    width: 150px;
+    height: 55px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border-color: #fff;
+    background: #7DA0CA;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.container-block {
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title-banner {
+    font-family: "Inter", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text-banner {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
