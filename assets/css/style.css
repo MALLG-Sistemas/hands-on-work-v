@@ -50,11 +50,13 @@ body {
 
 /* Styles navbar menu de navegação mobile */
 @media screen and (max-width: 430px) {
-  header {
-    padding: 0 1rem;
+
+  .navbar-header-primary {
+    width: 90%;
   }
 
   .navbar-menu-nav {
+    width: 90%;
     background-color: #021024;
   }
 
@@ -79,23 +81,6 @@ body {
   width: 100%;
 }
 
-.heading {
-  max-width: 1300px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 3.75rem;
-}
-
-.container-block {
-  width: 37.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
 .title-banner {
   font-family: "Inter", sans-serif;
   font-size: 4rem;
@@ -108,4 +93,13 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6rem;
+}
+
+.btn-banner {
+  color: #fff;
+  background-color: #7da0ca;
+}
+
+.bi-arrow-right {
+  margin-left: 10px;
 }
