@@ -23,9 +23,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-header-primary">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-header-primary px-4">
         <div
-          class="d-flex w-100 justify-content-between px-4 align-items-center text-center navbar-header-general">
+          class="d-flex justify-content-between align-items-center w-100 h-100">
           <div class="navbar-social navbar-social-medias">
             <a
               href="https://www.facebook.com/pages/Projeto%20Tamar%20-%20Floripa/263403577047988/#"
@@ -54,69 +54,74 @@
           </div>
           <h1 class="navbar-title-primary">Projeto Tamar</h1>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       </nav>
       <!-- Navbar com os itens do menu de navegação -->
-      <nav class="navbar navbar-expand-lg navbar-menu navbar-menu-nav">
-        <div class="container-fluid">
-          <ul class="navbar-nav mx-auto gap-4 text-uppercase">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                >Tamar Florianópolis</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Tartarugas Marinhas
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    >Submenu 1</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="#"
-                    >Submenu 2</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                >Sobre Nós</a
-              >
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-menu navbar-menu-nav">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-auto gap-4 text-uppercase">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Tamar Florianópolis</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tartarugas Marinhas
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 2</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Sobre Nós</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon toggler-icon"></span>
+          </button>
         </div>
       </nav>
     </header>
