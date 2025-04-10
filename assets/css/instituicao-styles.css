@@ -59,6 +59,79 @@ body {
   }
 }
 
+/* ------------------- */
+/* Seção Banner */
+/* ------------------- */
+
+/* Seção banner com a imagem de fundo */
+.banner {
+  background: url("/assets/images/banner-turtle-areia.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 11rem 8rem 11rem 7rem;
+  color: #ffffff;
+  height: 80vh;
+  width: 100%;
+}
+
+.title-banner {
+  font-size: 3.75rem;
+  font-weight: 700;
+}
+
+.text-banner {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  letter-spacing: -0.36px;
+}
+
+.btn-banner {
+  color: #fff;
+  background-color: #7da0ca;
+}
+
+.bi-arrow-right {
+  margin-left: 10px;
+}
+
+/* ------------------- */
+/* Seção Banner Mobile */
+/* ------------------- */
+@media screen and (max-width: 430px) {
+  .banner {
+    height: 90vh;
+    padding: 20px 10px 0 10px;
+  }
+
+  .title-banner {
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+/* ------------------- */
+/* Seção Cards Info */
+/* ------------------- */
+.section-cards-info {
+  background-color: #c1e8ff;
+  background-image: url("../images/element-bg-transparent.png");
+  background-size: contain;
+}
+
+.card-info {
+  border: none;
+}
+
 /* --------------- */
 /* Footer */
 /* --------------- */
