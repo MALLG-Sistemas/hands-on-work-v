@@ -124,6 +124,8 @@ body {
 /* ------------------- */
 .section-cards-info {
   background-color: #c1e8ff;
+  background-image: url("../images/element-bg-transparent.png");
+  background-size: contain;
 }
 
 .card-info {
