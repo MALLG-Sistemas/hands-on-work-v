@@ -6,113 +6,462 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
       rel="stylesheet"
       href="/assets/css/style.css" />
     <link
       rel="stylesheet"
       href="./assets/css/reset.css" />
-    <title>Projeto Tamar</title>
+    <title>Projeto Tamar - Lorem Ipsum</title>
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navbar-header">
-          <div class="navbar-social">
+      <nav
+        class="navbar navbar-expand-lg fixed-top px-4 col-md-8 mx-auto navbar-header-primary">
+        <div
+          class="d-flex justify-content-between align-items-center w-100 h-100">
+          <div class="navbar-social navbar-social-medias">
             <a
               href="https://www.facebook.com/pages/Projeto%20Tamar%20-%20Floripa/263403577047988/#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/fb-icon.svg"
-                alt="Icone do facebook" />
+              <i class="bi bi-facebook"></i>
             </a>
             <a
               href="https://www.instagram.com/projeto_tamar_oficial/?igsh=c3I3dHBpa29kMDVm#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/instagram-icon.svg"
-                alt="Icone do instagram" />
+              <i class="bi bi-instagram"></i>
             </a>
             <a
               href="https://x.com/ProjetoTamarSC"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/x-icon.svg"
-                alt="Icone do X" />
+              <i class="bi bi-twitter-x"></i>
             </a>
             <a
               href="https://www.youtube.com/@TVTamar"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/youtube-icon.svg"
-                alt="Icone do youtube" />
+              <i class="bi bi-youtube"></i>
             </a>
           </div>
-          <h1 class="navbar-title">Projeto Tamar</h1>
+          <h1 class="navbar-title-primary">Projeto Tamar</h1>
         </div>
       </nav>
-      <nav class="navbar-menu">
-        <ul class="navbar-list">
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Home</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Tamar Florianópolis</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Tartarugas Marinhas</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Doe</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Sobre Nós</a
-            >
-          </li>
-        </ul>
+      <!-- Navbar com os itens do menu de navegação -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-menu navbar-menu-nav col-md-8 mx-auto">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-auto gap-4 text-uppercase">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Tamar Florianópolis</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Tartarugas Marinhas
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 2</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Sobre Nós</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon toggler-icon"></span>
+          </button>
+        </div>
       </nav>
     </header>
 
     <main>
       <!-- Section Banner -->
-      <section class="banner">
-        <div class="heading">
-          <div class="container-block">
-            <h2 class="title-banner">Projeto Tamar</h2>
-            <p class="text-banner">
-              O Projeto Tamar não conseguiria chegar a lugar algum sem a ajuda
-              das comunidades e de todos os que se importam com a natureza. A
-              conservação das tartarugas marinhas e dos ambientes dos quais elas
-              dependem precisa do apoio de toda a sociedade:
-            </p>
+      <section class="banner d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 p-0">
+              <h2 class="title-banner">Projeto Tamar</h2>
+              <p class="text-banner">
+                O Projeto Tamar não conseguiria chegar a lugar algum sem a ajuda
+                das comunidades e de todos os que se importam com a natureza. A
+                conservação das tartarugas marinhas e dos ambientes dos quais
+                elas dependem precisa do apoio de toda a sociedade:
+              </p>
+            </div>
           </div>
-          <button class="button-banner">Loja</button>
+          <div class="row justify-content-start">
+            <div class="col-md-6 p-0">
+              <a
+                href="#"
+                class="btn btn-banner btn-lg"
+                >Loja<i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Sobre/Texto -->
+      <section
+        class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
+        <h1 class="display-5 text-uppercase m-0">Você faz o tamar</h1>
+        <p class="mt-3">
+          O Projeto Tamar não conseguiria chegar a lugar algum sem a ajuda das
+          comunidades e de todos os que se importam com a natureza. A
+          conservação das tartarugas marinhas e dos ambientes dos quais elas
+          dependem precisa do apoio de toda a sociedade:
+          <br />
+          <strong>Comunidades de pescadores</strong>, que interagem diretamente
+          com as tartarugas;
+          <br />
+          <strong>Populações costeiras</strong>, que ajudam a cuidar dos ninhos
+          e filhotes;
+          <br />
+          <strong>Empresas e instituições</strong>, que apoiam financeiramente e
+          têm sido parceiras constantes;
+          <br />
+          <strong>As pessoas consumidoras dos produtos</strong> que geram
+          serviços nas comunidades e financiam as atividades da Fundação Projeto
+          Tamar;
+          <br />
+          <strong>Os turistas</strong> que visitam as bases da Fundação Projeto
+          Tamar e valorizam as áreas naturais, contribuindo inclusive para que
+          os próprios moradores locais descubram valores ambientais que
+          desconheciam;
+          <br />
+          <strong>Os governantes</strong>, que devem apoiar os programas de
+          conservação que signifiquem compromisso com a melhoria de qualidade de
+          vida para as gerações futuras.
+          <br />
+          Por isso, seja você quem for, participe, ajude a Fundação Projeto
+          Tamar a continuar com o seu trabalho. Qualquer forma de contribuição é
+          valida: como consumidor, comprando os produtos nas Lojas Tamar e
+          conhecendo os centros de visitantes que geram recursos para o trabalho
+          de conservação; como agente voluntario da conservação espalhando a
+          mensagem em defesa das tartarugas e do ambiente marinho; como cidadão,
+          exercendo a sua consciência ambiental e ajudando a proteger o planeta.
+        </p>
+        <img
+          src="./assets/images/img-section-info.jpg"
+          class="img-fluid rounded-3"
+          alt="Imagem com pessoas e tartarugas dentro do Tamar Florianópolis" />
+      </section>
+
+      <!-- Section Cards -->
+      <section
+        class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body p-0">
+                <h3 class="card-title text-uppercase mt-3">
+                  Loja Fundação Projeto Tamar - Florianópolis
+                </h3>
+                <p class="card-text">
+                  A loja de produtos Tamar é mais uma oportunidade para
+                  contribuir com o trabalho de pesquisa e conservação das
+                  tartarugas marinhas. São comercializados produtos
+                  confeccionados no Brasil, principalmente o material produzido
+                  pelas confecções da Fundação Projeto Tamar nas localidades de
+                  Regência/ES e Pirambu/SE e também pelos grupos de artesanato
+                  apoiados. A renda obtida é integralmente aplicada nas
+                  atividades desenvolvidas: proteção e pesquisa, sensibilização
+                  e educação ambiental, geração de emprego e renda, inclusão
+                  social e envolvimento comunitário.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./assets/images/img-tamar-shop.jpg"
+                class="img-fluid rounded-start"
+                alt="Imagem de uma loja do Tamar" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card mt-5">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img
+                src="./assets/images/img-tamar-volutaria.jpg"
+                class="img-fluid rounded-start"
+                alt="Imagem de uma uam voluntaria do Tamar" />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body p-0">
+                <h3 class="card-title text-uppercase mt-3">
+                  Espaços Temáticos - Florianópolis
+                </h3>
+                <p class="card-text">
+                  O Museu do Projeto Tamar Florianópolis conta com diversos
+                  espaços temáticos que contam a história do Projeto Tamar e as
+                  ações realizadas para conservação das tartarugas marinhas.
+                  Contamos ainda com um gramado amplo e um parquinho infantil
+                  com escorregador e balanços para as crianças além de uma
+                  cabana com venda de pipoca e bebidas para os visitantes.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <section class="col-md-12 section-footer">
+      <div class="container mt-5 col-md-8 mx-auto">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <div class="d-flex col-md-12 pt-3 justify-content-between">
+            <img
+              src="./assets/icons/icon-turtle.svg"
+              alt="Logo do Projeto Tamar" />
+            <button class="btn btn-footer">
+              <a
+                href="#"
+                class="text-dark text-decoration-none"
+                >Doar</a
+              >
+            </button>
+          </div>
+          <div class="border-top w-100 mt-3"></div>
+          <div class="col mt-4">
+            <h4 class="text-white">Projeto Tamar Florianópolis</h4>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Tamar Florianópolis</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Projeto Tamar</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Atrações Interativas</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Biólogo Por Um Dia</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Visitas Orientadas</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Tartarugas Marinhas</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Tartaruga Verde</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Tartaruga de Couro</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Tartaruga Cabeçuda</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Sobre Nós</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Loja Tamar</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Apoio Dazaranha</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Detalhes Loja</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Mapa</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Contatos e Endereço</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="mailto:tamarsul@tamar.org.br"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-envelope"></i> tamarsul@tamar.org.br</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://wa.me/554832362015"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-telephone"></i> +55 48 3236-2015</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=R.+Prof.+Ademir+Francisco,+s%2Fn+-+Barra+da+Lagoa,+Florian%C3%B3polis+-+SC"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-geo-alt"></i> R. Prof. Ademir Francisco, s/n
+                  - Barra da Lagoa, Florianópolis - SC</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mt-5 pb-4">
+            <div class="d-flex gap-5 mb-3 mb-md-0">
+              <p class="text-white mb-0 text-nowrap">Termos e Condições</p>
+              <p class="text-white mb-0 text-nowrap">Política de Privacidade</p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <ul class="list-unstyled d-flex m-0">
+                <li class="">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="https://www.facebook.com/pages/Projeto%20Tamar%20-%20Floripa/263403577047988/#"
+                    target="_blank"
+                    aria-label="Facebook"
+                    ><i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="https://www.instagram.com/projeto_tamar_oficial/?igsh=c3I3dHBpa29kMDVm#"
+                    target="_blank"
+                    aria-label="Instagram"
+                    ><i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="https://x.com/ProjetoTamarSC"
+                    target="_blank"
+                    aria-label="X"
+                    ><i class="bi bi-twitter-x"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="https://www.youtube.com/@TVTamar"
+                    target="_blank"
+                    aria-label="Youtube"
+                    ><i class="bi bi-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <section
+      class="d-flex flex-column justify-content-between align-items-center w-100 section-copy">
+      <p class="text-white mb-0 pt-2 text-nowrap">
+        Copyright © 2025 Projeto Tamar Florianópolis
+      </p>
+      <p class="text-white mb-2 text-nowrap">Todos os direitos reservados</p>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
   </body>
 </html>
