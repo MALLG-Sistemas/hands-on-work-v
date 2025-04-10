@@ -64,58 +64,77 @@ body {
 /* Seção Banner */
 /* ------------------- */
 
-/* Seção banner com a imagem de fundo */
 .banner {
-    background: url("/hands-on-work-v/assets/images/tartaruga-oliva.jpg") no-repeat center center;
+    background: url("/assets/images/banner-turtle-cabecuda.jpg") no-repeat center center;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     padding: 11rem 8rem 11rem 7rem;
     color: #ffffff;
-    height: 900px;
+    height: 80vh;
     width: 100%;
-}
-
-.heading {
-    max-width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3.75rem;
-}
-
-.botton-banner {
-    display: flex;
-    width: 150px;
-    height: 55px;
-    padding: 20px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    border-color: #fff;
-    background: #7DA0CA;
-    font-family: "Inter", sans-serif;
-    color: white;
-}
-
-.container-block {
-    width: 37.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.title-banner {
-    font-family: "Inter", sans-serif;
-    font-size: 4rem;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.text-banner {
-    font-family: "Inter", sans-serif;
+  }
+  
+  .title-banner {
+    font-size: 3.75rem;
+    font-weight: 700;
+  }
+  
+  .text-banner {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6rem;
-}
+    letter-spacing: -0.36px;
+  }
+  
+  .btn-banner {
+    color: #fff;
+    background-color: #7da0ca;
+  }
+  
+  .bi-arrow-right {
+    margin-left: 10px;
+  }
+  
+  /* ------------------- */
+  /* Seção Banner Mobile */
+  /* ------------------- */
+  @media screen and (max-width: 430px) {
+    .banner {
+      height: 90vh;
+      padding: 20px 10px 0 10px;
+    }
+  
+    .title-banner {
+      font-size: 3.125rem;
+      font-weight: 600;
+      line-height: normal;
+    }
+  
+    .text-banner {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  
+  /* --------------- */
+/* Footer */
+/* --------------- */
+
+.section-footer {
+    background-color: #021024;
+  }
+  
+  .btn-footer {
+    background-color: #c1e8ff;
+  }
+  
+  .title-menu-footer {
+    color: #7da0ca;
+  }
+  
+  .section-copy {
+    background-color: #052659;
+  }
+  
