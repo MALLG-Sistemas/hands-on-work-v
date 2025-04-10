@@ -5,16 +5,16 @@ body {
   color: #333;
 }
 
-.navbar-menu {
-  top: 60px;
-}
-
-/* Navbar principal com classes do bootstrap */
+/* Navbar Header Primary */
 .navbar-header-primary {
   top: 25px;
   height: 35px;
   background-color: #052659;
   border-radius: 20px 20px 0 0;
+}
+
+.navbar-menu {
+  top: 60px;
 }
 
 .navbar-social-medias {
@@ -26,7 +26,6 @@ body {
 .navbar-social-link i {
   color: #fff;
   font-size: 1.2rem;
-  transition: all 0.3s ease-in-out;
 }
 
 .navbar-title-primary {
@@ -47,11 +46,11 @@ body {
 /* Styles navbar menu de navegação mobile */
 @media screen and (max-width: 430px) {
   .navbar-header-primary {
-    width: 90%;
+    width: 95%;
   }
 
   .navbar-menu-nav {
-    width: 90%;
+    width: 95%;
     background-color: #021024;
   }
 
@@ -77,17 +76,15 @@ body {
 }
 
 .title-banner {
-  font-family: "Inter", sans-serif;
-  font-size: 4rem;
-  font-weight: 600;
-  line-height: normal;
+  font-size: 3.75rem;
+  font-weight: 700;
 }
 
 .text-banner {
-  font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6rem;
+  letter-spacing: -0.36px;
 }
 
 .btn-banner {
@@ -100,8 +97,26 @@ body {
 }
 
 /* ------------------- */
-/* Seção Info */
+/* Seção Banner Mobile */
 /* ------------------- */
+@media screen and (max-width: 430px) {
+  .banner {
+    height: 90vh;
+    padding: 20px 10px 0 10px;
+  }
+
+  .title-banner {
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
 
 /* --------------- */
 /* Footer */
