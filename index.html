@@ -6,113 +6,479 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="/assets/css/style.css" />
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="./assets/css/reset.css" />
-    <title>Projeto Tamar</title>
+    <title>Title Home Page</title>
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navbar-header">
-          <div class="navbar-social">
+      <nav
+        class="navbar navbar-expand-lg fixed-top px-4 col-md-8 mx-auto navbar-header-primary">
+        <div
+          class="d-flex justify-content-between align-items-center w-100 h-100">
+          <div class="navbar-social navbar-social-medias">
             <a
-              href="https://www.facebook.com/pages/Projeto%20Tamar%20-%20Floripa/263403577047988/#"
+              href="#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/fb-icon.svg"
-                alt="Icone do facebook" />
+              <i class="bi bi-facebook"></i>
             </a>
             <a
-              href="https://www.instagram.com/projeto_tamar_oficial/?igsh=c3I3dHBpa29kMDVm#"
+              href="#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/instagram-icon.svg"
-                alt="Icone do instagram" />
+              <i class="bi bi-instagram"></i>
             </a>
             <a
-              href="https://x.com/ProjetoTamarSC"
+              href="#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/x-icon.svg"
-                alt="Icone do X" />
+              <i class="bi bi-twitter-x"></i>
             </a>
             <a
-              href="https://www.youtube.com/@TVTamar"
+              href="#"
               target="_blank"
               class="navbar-social-link">
-              <img
-                src="/assets/icons/youtube-icon.svg"
-                alt="Icone do youtube" />
+              <i class="bi bi-youtube"></i>
             </a>
           </div>
-          <h1 class="navbar-title">Projeto Tamar</h1>
+          <h1 class="navbar-title-primary">Lorem Ipsum</h1>
         </div>
       </nav>
-      <nav class="navbar-menu">
-        <ul class="navbar-list">
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Home</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Tamar Florianópolis</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Tartarugas Marinhas</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Doe</a
-            >
-          </li>
-          <li class="navbar-items">
-            <a
-              href="#"
-              class="navbar-link"
-              >Sobre Nós</a
-            >
-          </li>
-        </ul>
+      <!-- Navbar com os itens do menu de navegação -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-menu navbar-menu-nav col-md-8 mx-auto">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center">
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup">
+            <ul class="navbar-nav mx-auto gap-4 text-uppercase">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Instituição</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Instituição Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 1</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      >Submenu 2</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  >Sobre Nós</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon toggler-icon"></span>
+          </button>
+        </div>
       </nav>
     </header>
 
     <main>
       <!-- Section Banner -->
-      <section class="banner">
-        <div class="heading">
-          <div class="container-block">
-            <h2 class="title-banner">Projeto Tamar</h2>
-            <p class="text-banner">
-              O Projeto Tamar não conseguiria chegar a lugar algum sem a ajuda
-              das comunidades e de todos os que se importam com a natureza. A
-              conservação das tartarugas marinhas e dos ambientes dos quais elas
-              dependem precisa do apoio de toda a sociedade:
-            </p>
+      <section class="banner d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 p-0">
+              <h2 class="title-banner">Lorem Ipsum</h2>
+              <p class="text-banner">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
           </div>
-          <button class="button-banner">Loja</button>
+          <div class="row justify-content-start">
+            <div class="col-md-6 p-0">
+              <a
+                href="#"
+                class="btn btn-banner btn-lg"
+                >Loja<i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Sobre/Texto -->
+      <section
+        class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
+        <h1 class="display-5 text-uppercase m-0">Lorem ipsum dolor sit amet</h1>
+        <p class="mt-3">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
+          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
+          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
+          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
+          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
+          per conubia nostra inceptos himenaeos:
+          <br />
+          <strong>Lorem ipsum dolor</strong>, Consectetur adipiscing elit
+          quisque faucibus ex sapien vitae;
+          <br />
+          <strong>Lorem ipsum dolor</strong>, Ex sapien vitae pellentesque sem
+          placerat in id;
+          <br />
+          <strong>Lorem</strong>, Placerat in id cursus mi pretium tellus duis.
+          Pretium tellus duis convallis tempus leo eu aenean;
+          <br />
+          <strong>Lorem ipsum dolor sit amet</strong> Nisl malesuada lacinia
+          integer nunc posuere ut hendrerit;
+          <br />
+          <strong>Lorem ipsum</strong> Sodales consequat magna ante condimentum
+          neque at luctus. Ligula congue sollicitudin erat viverra ac tincidunt
+          nam. Lectus commodo augue arcu dignissim velit aliquam imperdiet;
+          <br />
+          <strong>Lorem ispum</strong>, Cras eleifend turpis fames primis
+          vulputate ornare sagittis. Libero feugiat tristique accumsan maecenas
+          potenti ultricies habitant. Cubilia curae hac habitasse platea
+          dictumst lorem ipsum. Faucibus ex sapien vitae pellentesque sem
+          placerat in. Tempus leo eu aenean sed diam urna tempor;
+          <br />
+          Dignissim velit aliquam imperdiet mollis nullam volutpat porttitor.
+          Proin libero feugiat tristique accumsan maecenas potenti ultricies.
+          Sit amet consectetur adipiscing elit quisque faucibus ex. Sed diam
+          urna tempor pulvinar vivamus fringilla lacus. Aptent taciti sociosqu
+          ad litora torquent per conubia. Eros lobortis nulla molestie mattis
+          scelerisque maximus eget. Aliquet nisi sodales consequat magna ante
+          condimentum neque. Porta elementum a enim euismod quam justo lectus.
+          Fames primis vulputate ornare sagittis vehicula praesent dui.
+          Curabitur facilisi cubilia curae hac habitasse platea dictumst. Id
+          cursus mi pretium tellus duis convallis tempus. Nisl malesuada lacinia
+          integer nunc posuere ut hendrerit.
+        </p>
+        <img
+          src="./assets/images/img-section-info.jpg"
+          class="img-fluid rounded-3"
+          alt="Imagem com uma tartaruga marinha" />
+      </section>
+
+      <!-- Section Cards -->
+      <section
+        class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body p-0">
+                <h3 class="card-title text-uppercase mt-3">
+                  Lorem ipsum dolor sit amet - Consectetur
+                </h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                  Placerat in id cursus mi pretium tellus duis. Urna tempor
+                  pulvinar vivamus fringilla lacus nec metus. Integer nunc
+                  posuere ut hendrerit semper vel class. Conubia nostra inceptos
+                  himenaeos orci varius natoque penatibus. Mus donec rhoncus
+                  eros lobortis nulla molestie mattis. Purus est efficitur
+                  laoreet mauris pharetra vestibulum fusce. Sodales consequat
+                  magna ante condimentum neque at luctus. Ligula congue
+                  sollicitudin erat viverra ac tincidunt nam. Lectus commodo
+                  augue arcu dignissim velit aliquam imperdiet. Cras eleifend
+                  turpis fames primis vulputate ornare sagittis. Libero feugiat
+                  tristique accumsan maecenas potenti ultricies habitant.
+                  Cubilia curae hac habitasse platea dictumst lorem ipsum.
+                  Faucibus ex sapien vitae pellentesque sem placerat in. Tempus
+                  leo eu aenean sed diam urna tempor.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="./assets/images/turtle-brinquedo.jpg"
+                class="img-fluid rounded-start"
+                alt="Imagem de uma tartaruga de brinquedo" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card mt-5">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img
+                src="./assets/images/pessoas-volutarias.jpg"
+                class="img-fluid rounded-start"
+                alt="Imagem de pessoas voluntárias catando lixo na praia" />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body p-0">
+                <h3 class="card-title text-uppercase mt-3">
+                  Lorem ipsum - Consectetur
+                </h3>
+                <p class="card-text px-2">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                  Quisque faucibus ex sapien vitae pellentesque sem placerat. In
+                  id cursus mi pretium tellus duis convallis. Tempus leo eu
+                  aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus
+                  nec metus bibendum egestas. Iaculis massa nisl malesuada
+                  lacinia integer nunc posuere. Ut hendrerit semper vel class
+                  aptent taciti sociosqu. Ad litora torquent per conubia nostra
+                  inceptos himenaeos.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <section class="col-md-12 section-footer">
+      <div class="container mt-5 col-md-8 mx-auto">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+          <div class="d-flex col-md-12 pt-3 justify-content-between">
+            <img
+              src="./assets/icons/icon-turtle.svg"
+              alt="Icone de desenho de uma tartaruga" />
+            <button class="btn btn-footer">
+              <a
+                href="#"
+                class="text-dark text-decoration-none"
+                >Lorem</a
+              >
+            </button>
+          </div>
+          <div class="border-top w-100 mt-3"></div>
+          <div class="col mt-4">
+            <h4 class="text-white">Lorem Ipsum Dolor Sit Amet</h4>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Title Menu Footer</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Title Menu Footer</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Title Menu Footer</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="#"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  >Submenu Footer</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col mt-4 title-menu-footer">
+            <h5>Contatos e Endereço</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="mailto:"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-envelope"></i> mallgsistemas@mallg.com.br</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://wa.me/554832362015"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-telephone"></i> +55 328 1565 2994</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=R.+Prof.+Ademir+Francisco,+s%2Fn+-+Barra+da+Lagoa,+Florian%C3%B3polis+-+SC"
+                  class="nav-link p-0 text-white text-decoration-none"
+                  ><i class="bi bi-geo-alt"></i> R. Prof. Sem Nome, s/n - Barra
+                  Fantasia, Cidade Fantasia - SC</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mt-5 pb-4">
+            <div class="d-flex gap-5 mb-3 mb-md-0">
+              <p class="text-white mb-0 text-nowrap">Termos e Condições</p>
+              <p class="text-white mb-0 text-nowrap">Política de Privacidade</p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <ul class="list-unstyled d-flex m-0">
+                <li class="">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="#"
+                    target="_blank"
+                    aria-label="Facebook"
+                    ><i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="#"
+                    target="_blank"
+                    aria-label="Instagram"
+                    ><i class="bi bi-instagram"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="#"
+                    target="_blank"
+                    aria-label="X"
+                    ><i class="bi bi-twitter-x"></i>
+                  </a>
+                </li>
+                <li class="ms-3">
+                  <a
+                    class="link-body-emphasis text-white"
+                    href="#"
+                    target="_blank"
+                    aria-label="Youtube"
+                    ><i class="bi bi-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <section
+      class="d-flex flex-column justify-content-between align-items-center w-100 section-copy">
+      <p class="text-white mb-0 pt-2 text-nowrap">
+        Copyright © 2025 MALLG Sistemas LTDA
+      </p>
+      <p class="text-white mb-2 text-nowrap">Todos os direitos reservados</p>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"></script>
   </body>
 </html>
