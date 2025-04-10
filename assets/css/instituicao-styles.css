@@ -120,8 +120,15 @@ body {
 }
 
 /* ------------------- */
-/* Seção Carousel */
+/* Seção Cards Info */
 /* ------------------- */
+.section-cards-info {
+  background-color: #c1e8ff;
+}
+
+.card-info {
+  border: none;
+}
 
 /* --------------- */
 /* Footer */
