@@ -116,3 +116,36 @@ body {
 .section-copy {
   background-color: #052659;
 }
+
+
+@media screen and (max-width: 430px) {
+  
+  /* ------------------- */
+  /* Seção Banner Mobile */
+  /* ------------------- */
+  .banner {
+    height: 90vh;
+    padding: 20px 10px 0 10px;
+  }
+
+  .title-banner {
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* ------------------- */
+  /* Seção Images & Text */
+  /* ------------------- */
+  .img-style {
+    width: 355px;
+    height: 235px;
+    border-radius: 20px;
+  }
+}
