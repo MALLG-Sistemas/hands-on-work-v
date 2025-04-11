@@ -117,12 +117,8 @@ body {
   background-color: #052659;
 }
 
-
 @media screen and (max-width: 430px) {
-  
-  /* ------------------- */
   /* Seção Banner Mobile */
-  /* ------------------- */
   .banner {
     height: 90vh;
     padding: 20px 10px 0 10px;
@@ -140,23 +136,35 @@ body {
     line-height: normal;
   }
 
-  /* ------------------- */
   /* Seção Images & Text */
-  /* ------------------- */
   .container-styled {
     gap: 30px !important;
+    align-items: center !important;
   }
 
   .img-style {
-    width: 355px;
-    height: 235px;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
 
   .img-style-finished {
-    width: 355px;
-    height: 235px;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
     margin-top: 30px;
+  }
+
+  /* Seção Cards */
+  .section-cards {
+    margin-top: 1.25rem !important;
+  }
+
+  .container-cards {
+    gap: 1.25rem !important;
+    align-items: center !important;
+  }
+
+  .card-body-styled {
+    margin-top: 0.938rem !important;
+    padding: 0 !important;
   }
 }
