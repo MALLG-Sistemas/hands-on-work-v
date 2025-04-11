@@ -143,9 +143,20 @@ body {
   /* ------------------- */
   /* Seção Images & Text */
   /* ------------------- */
+  .container-styled {
+    gap: 30px !important;
+  }
+
   .img-style {
     width: 355px;
     height: 235px;
-    border-radius: 20px;
+    margin: 0 auto;
+  }
+
+  .img-style-finished {
+    width: 355px;
+    height: 235px;
+    margin: 0 auto;
+    margin-top: 30px;
   }
 }
