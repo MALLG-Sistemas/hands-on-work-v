@@ -163,7 +163,13 @@ body {
 
   /* ==== Video Card Section ==== */
   .card-video-styled {
-    margin-top: 1.5rem !important;
+    margin-top: 0rem !important;
     margin-bottom: 1.5rem !important;
+  }
+
+  /* ==== Location Section ==== */
+  iframe {
+    width: 100%;
+    height: 300px; /* ajuste a altura conforme a necessidade */
   }
 }
