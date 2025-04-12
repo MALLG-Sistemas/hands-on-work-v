@@ -80,7 +80,7 @@ body {
 
 /* Seção banner com a imagem de fundo */
 .banner {
-  background: url("/assets/images/banner-turtle-cabecuda.jpg") no-repeat center
+  background: url("./assets/images/banner-turtle-cabecuda.jpg") no-repeat center
     center;
   background-attachment: fixed;
   background-size: cover;
