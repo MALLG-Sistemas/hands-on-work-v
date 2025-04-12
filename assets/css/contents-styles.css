@@ -5,7 +5,7 @@ body {
   color: #333;
 }
 
-/* Navbar Header Primary */
+/* ==== Navbar Header Primary ==== */
 .navbar-header-primary {
   top: 25px;
   height: 35px;
@@ -36,14 +36,14 @@ body {
   margin: 0;
 }
 
-/* Navbar com menu de navegação */
+/* ==== Navbar com menu de navegação ==== */
 .navbar-menu-nav {
   height: 56px;
   border-radius: 0px 0px 20px 20px;
   background: #c1e8ff;
 }
 
-/* Styles navbar menu de navegação mobile */
+/* ==== Media Queries Navbar ==== */
 @media screen and (max-width: 430px) {
   .navbar-header-primary {
     width: 95%;
@@ -74,11 +74,7 @@ body {
   }
 }
 
-/* ------------------- */
-/* Seção Banner */
-/* ------------------- */
-
-/* Seção banner com a imagem de fundo */
+/* ==== Seção banner com a imagem de fundo ==== */
 .banner {
   background: url("/assets/images/banner-turtle-verde.jpg");
   background-attachment: fixed;
@@ -112,10 +108,7 @@ body {
   margin-left: 10px;
 }
 
-/* --------------- */
-/* Footer */
-/* --------------- */
-
+/* ===== Section Footer ===== */
 .section-footer {
   background-color: #021024;
 }
