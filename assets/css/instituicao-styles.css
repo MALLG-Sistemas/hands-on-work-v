@@ -80,7 +80,7 @@ body {
 
 /* Seção banner com a imagem de fundo */
 .banner {
-  background: url("/assets/images/banner-turtle-areia.jpg");
+  background: url("../images/banner-turtle-areia.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
