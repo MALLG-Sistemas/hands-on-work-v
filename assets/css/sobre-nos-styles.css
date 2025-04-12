@@ -76,8 +76,7 @@ body {
 
 /* ====== Seção Banner ====== */
 .banner {
-  background: url("/assets/images/banner-turtle-verde.png") no-repeat center
-    center;
+  background: url("../images/banner-turtle-verde.png") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
