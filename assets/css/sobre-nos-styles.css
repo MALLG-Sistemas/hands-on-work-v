@@ -108,24 +108,10 @@ body {
   margin-left: 10px;
 }
 
-/* ==== Seção Banner mobile ==== */
-@media screen and (max-width: 430px) {
-  .banner {
-    height: 90vh;
-    padding: 20px 10px 0 10px;
-  }
-
-  .title-banner {
-    font-size: 3.125rem;
-    font-weight: 600;
-    line-height: normal;
-  }
-
-  .text-banner {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: normal;
-  }
+/* ==== Card Section ==== */
+.card-title-styled {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /* ==== Seção Videos ==== */
@@ -148,4 +134,36 @@ body {
 
 .section-copy {
   background-color: #052659;
+}
+
+@media screen and (max-width: 430px) {
+  /* ==== Seção Banner mobile ==== */
+  .banner {
+    height: 90vh;
+    padding: 20px 10px 0 10px;
+  }
+
+  .title-banner {
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* ==== Card Section ==== */
+  .section-card-styled {
+    margin-top: 1.8rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+  /* ==== Video Card Section ==== */
+  .card-video-styled {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
 }
