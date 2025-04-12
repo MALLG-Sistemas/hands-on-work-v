@@ -52,10 +52,25 @@ body {
   .navbar-menu-nav {
     width: 95%;
     background-color: #021024;
+    border-radius: 0px 0px 0px 0px;
   }
 
   .navbar-toggler-icon {
     filter: brightness(0) invert(1);
+  }
+
+  .bg-container-styled {
+    margin-top: 0.5rem;
+    background-color: #021024;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .list-menu-styled {
+    gap: 0.5rem !important;
+  }
+
+  .link-menu-styled {
+    color: #fff !important;
   }
 }
 
@@ -65,7 +80,8 @@ body {
 
 /* Seção banner com a imagem de fundo */
 .banner {
-  background: url("/assets/images/banner-turtle-cabecuda.jpg") no-repeat center center;
+  background: url("/assets/images/banner-turtle-cabecuda.jpg") no-repeat center
+    center;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;

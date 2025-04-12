@@ -58,35 +58,45 @@
       </nav>
       <!-- Navbar com os itens do menu de navegação -->
       <nav
-        class="navbar navbar-expand-lg fixed-top navbar-menu navbar-menu-nav col-md-8 mx-auto">
-        <div
-          class="container-fluid d-flex justify-content-between align-items-center">
+        class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto col-md-8 navbar-menu navbar-menu-nav">
+        <div class="container-fluid p-0">
+          <button
+            class="navbar-toggler ms-4"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample10"
+            aria-controls="navbarsExample10"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div
-            class="collapse navbar-collapse"
-            id="navbarNavAltMarkup">
-            <ul class="navbar-nav mx-auto gap-4 text-uppercase">
+            class="navbar-collapse justify-content-md-center collapse bg-container-styled"
+            id="navbarsExample10"
+            style>
+            <ul class="navbar-nav gap-4 text-uppercase px-4 list-menu-styled">
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link text-black active link-menu-styled"
                   href="#"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link text-black link-menu-styled"
                   href="#"
                   >Instituição</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle text-black link-menu-styled"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Instituição Dropdown
+                  Contents
                 </a>
                 <ul class="dropdown-menu">
                   <li>
@@ -107,23 +117,13 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link text-black link-menu-styled"
                   href="#"
                   >Sobre Nós</a
                 >
               </li>
             </ul>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon toggler-icon"></span>
-          </button>
         </div>
       </nav>
     </header>
@@ -252,7 +252,7 @@
                 <h3 class="card-title text-uppercase mt-3 fw-semibold">
                   Lorem ipsum dolor sit amet - Consectetur
                 </h3>
-                <p class="mt-3">
+                <p class="card-text">
                   Lorem ipsum dolor sit amet consectetur adipiscing elit.
                   Placerat in id cursus mi pretium tellus duis. Urna tempor
                   pulvinar vivamus fringilla lacus nec metus. Integer nunc
