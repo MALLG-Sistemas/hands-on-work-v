@@ -158,7 +158,7 @@ body {
 /* ----------------- */
 .service-cards {
   margin-top: 4.125rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3.5rem;
 }
 
 .bg-rectangle {
@@ -183,7 +183,7 @@ body {
 .service-card-body {
   display: flex;
   flex-direction: column;
-  gap: 31px;
+  gap: 1.938rem;
 }
 
 .title-card-service {
