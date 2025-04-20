@@ -1,54 +1,27 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", "Poppins", sans-serif;
   line-height: 1.6;
   background-color: #fff;
   color: #333;
 }
 
-/* Navbar Header Primary */
-.navbar-header-primary {
-  top: 25px;
-  height: 35px;
-  background-color: #052659;
-  border-radius: 20px 20px 0 0;
-}
-
-.navbar-menu {
-  top: 60px;
-}
-
-.navbar-social-medias {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.navbar-social-link i {
-  color: #fff;
-  font-size: 1.2rem;
-}
-
-.navbar-title-primary {
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 800;
-  line-height: normal;
-  margin: 0;
-}
-
 /* Navbar com menu de navegação */
 .navbar-menu-nav {
-  height: 56px;
-  border-radius: 0px 0px 20px 20px;
-  background: #c1e8ff;
+  height: 150px;
+  background: transparent;
 }
 
-/* Styles navbar menu de navegação mobile */
-@media screen and (max-width: 430px) {
-  .navbar-header-primary {
-    width: 95%;
-  }
+.navbar-nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
 
+.navbar .nav-link.active {
+  font-weight: 700;
+}
+
+/* Media Querie - Navbar */
+@media screen and (max-width: 430px) {
   .navbar-menu-nav {
     width: 95%;
     background-color: #021024;
@@ -80,14 +53,14 @@ body {
 
 /* Seção banner com a imagem de fundo */
 .banner {
-  background: url("../images/banner-turtle-cabecuda.jpg") no-repeat center
-    center;
+  background: url("../images/images-hmacedo/ipes-house-banner.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  padding: 11rem 8rem 11rem 7rem;
+  background-repeat: no-repeat;
+  padding: 9.375rem 4.375rem 0rem 0rem;
   color: #ffffff;
-  height: 80vh;
+  height: 50rem;
   width: 100%;
 }
 
