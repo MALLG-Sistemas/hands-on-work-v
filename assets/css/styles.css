@@ -157,11 +157,26 @@ body {
 /* Cards Services */
 /* ----------------- */
 .service-cards {
-  margin-top: 3.125rem;
+  margin-top: 4.125rem;
+  margin-bottom: 5rem;
+}
+
+.bg-rectangle {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: calc(100% - 60px);
+  height: 430px;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.container-icon-card {
+  padding: 0.5rem 0.69rem;
 }
 
 .icon-card {
-  font-size: 6rem;
+  font-size: 5.5rem;
   color: #d99197;
 }
 
@@ -181,8 +196,7 @@ body {
 .text-card-service {
   color: #6f6f6f;
   font-family: "Poppins", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.688rem;
 }
