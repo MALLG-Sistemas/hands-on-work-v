@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", "Poppins", sans-serif;
   line-height: 1.6;
   background-color: #fff;
-  color: #333;
+  color: #000;
 }
 
 /* --- Estilizações dos icons do Material Symbols --- */
@@ -154,6 +154,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
+  padding-top: 1.88rem;
 }
 
 /* --- Cards Services --- */
@@ -217,6 +218,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
+  padding-top: 2.19rem;
 }
 
 .carousel-control-next {
@@ -266,6 +268,25 @@ body {
   font-size: 1.563rem;
   font-weight: 400;
   line-height: 2.375rem;
+}
+
+/* --- Section Video --- */
+
+.section-video {
+  padding-top: 9rem;
+}
+
+.title-video {
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.text-video {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 2.5rem;
 }
 
 /* --- Footer --- */
