@@ -166,7 +166,7 @@ body {
   position: absolute;
   top: -50px;
   left: 0;
-  width: 1368px;
+  width: 1374px;
   height: 430px;
   background: #f2e7dc;
   z-index: 0;
@@ -220,7 +220,7 @@ body {
 }
 
 .carousel-control-next {
-  margin-right: -100px;
+  margin-right: -110px;
 }
 
 .carousel-control-prev {
@@ -230,6 +230,42 @@ body {
 .carousel-control-next-icon-material,
 .carousel-control-prev-icon-material {
   font-size: 4.3rem;
+}
+
+/* --- Section About --- */
+.service-about {
+  padding-top: 10rem;
+}
+
+.bg-rectangle-two {
+  position: absolute;
+  bottom: 33px;
+  right: 0;
+  width: 1384px;
+  height: 534px;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.title-about {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.text-about {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding-top: 1.3rem;
+}
+
+.text-about-two {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 2.375rem;
 }
 
 /* --- Footer --- */
