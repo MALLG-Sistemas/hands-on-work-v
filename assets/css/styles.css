@@ -208,7 +208,7 @@ body {
 }
 
 .title-about {
-  font-size: 65px;
+  font-size: 4.063rem;
   font-weight: 700;
 }
 
@@ -424,20 +424,39 @@ body {
   .carousel-mobile {
     display: block;
   }
-  
+
   .carousel-desktop {
     display: none;
   }
 
   /* --- Section About --- */
+  .service-about {
+    padding-top: 1.875rem;
+  }
+
   .bg-rectangle-two {
     position: absolute;
-    bottom: 0px;
+    top: 10px;
     right: 0;
+    max-width: 100%;
     width: 100%;
-    height: 100%;
+    height: 955px;
     background: #f2e7dc;
     z-index: 0;
+  }
+
+  .title-about {
+    font-size: 2.8125rem;
+  }
+
+  .text-about {
+    font-size: 1.125rem;
+    padding-top: 0.94rem;
+  }
+
+  .text-about-two {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
   }
 
   /* --- Section Why --- */
