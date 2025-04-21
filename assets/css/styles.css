@@ -188,6 +188,10 @@ body {
   font-size: 4.3rem;
 }
 
+.carousel-mobile {
+  display: none;
+}
+
 /* --- Section About --- */
 .service-about {
   padding-top: 10rem;
@@ -401,7 +405,28 @@ body {
 
   /* --- Section Carousel --- */
   .section-carousel {
-    padding-top: 1.25rem;
+    padding-top: 7.55rem;
+  }
+
+  .title-carousel {
+    font-size: 1.875rem;
+  }
+
+  .separator-mobile {
+    width: 30px;
+  }
+
+  .text-carousel {
+    font-size: 1.125rem;
+    padding-top: 0.94rem;
+  }
+
+  .carousel-mobile {
+    display: block;
+  }
+  
+  .carousel-desktop {
+    display: none;
   }
 
   /* --- Section About --- */
