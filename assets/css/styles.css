@@ -337,18 +337,15 @@ body {
 }
 
 /* --- Footer --- */
-.section-footer {
-  background-color: #021024;
+.container-footer {
+  background-color: #6f735f;
+  margin-top: 6.188rem;
 }
 
-.btn-footer {
-  background-color: #c1e8ff;
+.container-footer-images {
+  gap: 220px;
 }
 
-.title-menu-footer {
-  color: #7da0ca;
-}
-
-.section-copy {
-  background-color: #052659;
+.container-footer-contacts {
+  margin-left: 665px;
 }
