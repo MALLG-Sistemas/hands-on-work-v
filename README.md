@@ -1,8 +1,10 @@
-# Análise e Desenvolvimento de Sistemas - Univali 🎓
+# Análise e Desenvolvimento de Sistemas (ADS) - Faculdade Univali 🎓
 
-# Hands on Work V | Projeto Integrador 🚀
+## Disciplina: Hands on Work V | Projeto Integrador 🚀
 
-## Descrição
+## Projeto: Site responsivo de arquitetura e design de interiores | Arquiteta Heloise Macedo 🏠
+
+## Descrição do Problema/Trabalho
 
 Este projeto tem como objetivo desenvolver um sistema web responsivo que atenda às necessidades de microempreendedores individuais (MEI), empreendedores informais, comunidades religiosas ou organizações não governamentais (ONG). O sistema foi idealizado para:
 
@@ -13,9 +15,23 @@ Este projeto tem como objetivo desenvolver um sistema web responsivo que atenda 
 
 Utilizando tecnologias modernas de Responsive Web Developer, o sistema foi desenvolvido para proporcionar uma experiência de uso intuitiva, contribuindo para o fortalecimento das atividades do negócio ou da causa selecionada.
 
+## Descrição do Projeto
+
+Este projeto tem como objetivo desenvolver uma página web responsiva para a arquiteta Heloise Macedo. A interface foi criada para destacar os serviços de arquitetura e design de interiores, exibindo projetos, portfólio, depoimentos e informações de contato de forma moderna e intuitiva.
+
+O sistema foi idealizado para:
+
+- **Exposição de Projetos:** Apresentar os trabalhos da arquiteta por meio de seções dedicadas, galerias e carrosséis.
+- **Acessibilidade e Usabilidade:** Proporcionar uma experiência de navegação fluida em dispositivos de diferentes tamanhos, garantindo fácil acesso às informações.
+- **Gestão e Operacionalização:** Oferecer um layout que possibilite uma atualização simples e rápida do conteúdo, facilitando a gestão do site.
+
+_Observação: Home Page está codificada, tanto a versão desktop, quanto a responsiva (mobile), atualmente a página Projetos está em codificação, o site terá três páginas: Home, Projetos e Blog._
+
 ## Tecnologias Utilizadas
 
-- HTML, CSS, Bootstrap
+- HTML
+- CSS
+- Bootstrap
 
 ## Contribuição
 
