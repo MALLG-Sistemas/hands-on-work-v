@@ -220,7 +220,8 @@ body {
 }
 
 .carousel-control-next {
-  margin-right: -110px;
+  margin-right: -60px;
+  width: 68.8px;
 }
 
 .carousel-control-prev {
