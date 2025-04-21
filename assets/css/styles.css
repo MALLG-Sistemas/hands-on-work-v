@@ -325,6 +325,48 @@ body {
 /* Media Queries - Mobile --- */
 
 @media screen and (max-width: 430px) {
+  /* --- Navbar com menu de navegação --- */
+  .navbar .nav-link.active {
+    font-weight: 700;
+  }
+
+  /* --- Seção Banner --- */
+
+  /* --- Seção banner com a imagem de fundo --- */
+  .banner {
+    background-attachment: scroll;
+  }
+
+  .custom-rectangle-side {
+    width: 23.954px;
+    height: 357.797px;
+  }
+
+  .custom-rectangle {
+    max-width: 277px;
+    padding: 1.875rem 0.625rem 1.875rem 2.1875rem;
+    gap: 0.9375rem;
+  }
+
+  .title-banner {
+    font-size: 1.9375rem;
+    letter-spacing: -0.03875rem;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    letter-spacing: -0.02rem;
+  }
+
+  .btn-banner {
+    display: flex;
+    align-items: center;
+    width: 217px;
+    height: 40px;
+    gap: 0.625rem;
+  }
+
   /* --- Cards Services --- */
   .bg-rectangle {
     position: absolute;
