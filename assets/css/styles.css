@@ -229,7 +229,6 @@ body {
 }
 
 /* --- Section Video --- */
-
 .section-video {
   padding-top: 9rem;
 }
@@ -457,6 +456,21 @@ body {
   .text-about-two {
     font-size: 1.125rem;
     line-height: 1.6875rem;
+  }
+
+  /* --- Section Video --- */
+  .section-video {
+    padding-top: 5rem;
+  }
+
+  .title-video {
+    font-size: 1.875rem;
+  }
+
+  .text-video {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    padding-top: 0.625rem;
   }
 
   /* --- Section Why --- */
