@@ -1,0 +1,305 @@
+/* --- Global Styles --- */
+body {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* --- Navbar --- */
+.navbar-menu-nav {
+  height: 150px;
+  background: transparent;
+}
+
+.navbar-nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+}
+
+/* --- Seção Banner --- */
+
+/* --- Seção banner com a imagem de fundo --- */
+.banner {
+  background: url("../images/museu-de-arte-contemporanea-banner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 9.375rem;
+  height: 50rem;
+  width: 100%;
+}
+
+.custom-rectangle-side {
+  width: 4.6875rem;
+  opacity: 0.4;
+  background: #6f735f;
+  mix-blend-mode: multiply;
+}
+
+.custom-rectangle {
+  display: flex;
+  flex-direction: column;
+  max-width: 714px;
+  background: #bfbeaa;
+  box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+  padding: 2.1875rem 2.4375rem;
+  gap: 2.4375rem;
+}
+
+.title-banner {
+  font-size: 3.4375rem;
+  font-weight: 700;
+  letter-spacing: -0.06875rem;
+  margin: 0;
+}
+
+.text-banner {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.563rem;
+  margin: 0;
+}
+
+.btn-banner {
+  color: #fff;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  padding: 0.625rem 1.25rem;
+}
+
+.bi-arrow-right {
+  margin-left: 10px;
+}
+
+/* --- Section Projects --- */
+.section-projects {
+  padding-top: 140px;
+}
+
+.bg-rectangle-projects {
+  max-width: 1370px;
+  max-height: 258px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.title-projects {
+  font-size: 4.0625rem;
+  font-weight: 700;
+}
+
+.separator {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+}
+
+.text-projects {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.188rem;
+  font-weight: 400;
+}
+
+/* --- Section Interiores --- */
+.section-interior {
+  padding-top: 130px;
+}
+
+.title-interior {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.separator-interior {
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+}
+
+.text-interior {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* --- Section Latest Projects --- */
+.section-latest-projects {
+  padding-top: 6.125rem;
+}
+
+.title-latest-projects {
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+/* --- Section Interior AP --- */
+.section-interior-ap {
+  padding-top: 2.56rem;
+}
+
+.title-interior-ap {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.text-interior-ap {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* --- Section Interior AP 2 --- */
+.section-interior-ap-two {
+  padding-top: 4.125rem;
+}
+
+/* --- Footer --- */
+.container-footer {
+  background-color: #6f735f;
+  margin-top: 6.188rem;
+}
+
+.container-footer-images {
+  gap: 220px;
+}
+
+.container-footer-contacts {
+  margin-left: 665px;
+}
+
+/* --- Media Queries | Mobile --- */
+@media screen and (max-width: 430px) {
+  /* --- Navbar com menu de navegação --- */
+  .navbar .nav-link.active {
+    font-weight: 700;
+  }
+
+  /* --- Seção Banner --- */
+
+  /* --- Seção banner com a imagem de fundo --- */
+  .banner {
+    background-attachment: scroll;
+  }
+
+  .custom-rectangle-side {
+    width: 23.954px;
+    height: 357.797px;
+  }
+
+  .custom-rectangle {
+    max-width: 277px;
+    padding: 1.875rem 0.625rem 1.875rem 2.1875rem;
+    gap: 0.9375rem;
+  }
+
+  .title-banner {
+    font-size: 1.9375rem;
+    letter-spacing: -0.03875rem;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    letter-spacing: -0.02rem;
+  }
+
+  .btn-banner {
+    display: flex;
+    align-items: center;
+    width: 217px;
+    height: 40px;
+    gap: 0.625rem;
+  }
+
+  /* --- Section Projects --- */
+  .section-projects {
+    padding-top: 1.88rem;
+  }
+
+  .bg-rectangle-projects {
+    max-width: 365px;
+    max-height: 160px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2e7dc;
+    z-index: 0;
+  }
+
+  .title-projects {
+    font-size: 2.8125rem;
+  }
+
+  .separator-mobile {
+    width: 50px;
+  }
+
+  .text-projects {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  /* --- Section Interiores --- */
+  .section-interior {
+    padding-top: 2.5rem;
+  }
+
+  .title-interior {
+    font-size: 1.875rem;
+  }
+
+  .text-interior {
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
+  }
+
+  /* --- Section Latest Projects --- */
+  .section-latest-projects {
+    padding-top: 1.25rem;
+  }
+
+  .title-latest-projects {
+    font-size: 2.8125rem;
+  }
+
+  /* --- Section Interior AP --- */
+  .section-interior-ap {
+    padding-top: 1.25rem;
+  }
+
+  .text-interior-ap {
+    font-size: 1.25rem;
+  }
+
+  /* --- Section Interior AP 2 --- */
+  .section-interior-ap-two {
+    padding-top: 1.25rem;
+  }
+
+  /* --- Footer --- */
+  .container-footer {
+    margin-top: 1.25rem;
+  }
+
+  .container-footer-contacts {
+    margin-left: 0;
+  }
+}
