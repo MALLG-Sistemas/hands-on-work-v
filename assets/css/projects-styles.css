@@ -146,6 +146,23 @@ body {
   font-weight: 700;
 }
 
+/* --- Section Interior AP --- */
+.section-interior-ap {
+  padding-top: 2.56rem;
+}
+
+.title-interior-ap {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.text-interior-ap {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 /* --- Footer --- */
 .container-footer {
   background-color: #6f735f;
