@@ -33,18 +33,38 @@
   <header>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto p-0 navbar-menu navbar-menu-nav">
+    <!-- Navbar Mobile (exibida apenas em telas menores que 576px) -->
+    <nav class="navbar navbar-dark fixed-top py-2 d-sm-none">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo-black.png" alt="Logo HMacedo Arquitetura" height="40">
+        </a>
+        <ul class="navbar-nav flex-row gap-3">
+          <li class="nav-item">
+            <a class="nav-link text-black" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar Desktop (exibida a partir de telas sm) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto p-0 navbar-menu navbar-menu-nav d-none d-sm-flex">
       <div class="container p-0">
         <a class="navbar-brand p-0 m-0" href="#">
           <img src="./assets/images/logo-black.png" alt="Logo HMacedo Arquitetura" />
         </a>
-
         <!-- Botão toggle para mobile -->
         <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
           aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse justify-content-md-center collapse bg-container-styled" id="navbarsExample10" style>
+        <div class="navbar-collapse justify-content-md-center collapse bg-container-styled" id="navbarsExample10">
           <ul class="navbar-nav gap-4 text-uppercase px-4 list-menu-styled">
             <li class="nav-item">
               <a class="nav-link text-black active link-menu-styled" aria-current="page" href="./index.html">Home</a>
@@ -58,10 +78,13 @@
           </ul>
         </div>
         <span class="navbar-icons d-flex justify-content-end">
-          <a href="https://www.instagram.com/hmacedo.arquitetura" class="text-decoration-none text-black"><i
-              class="bi bi-instagram fs-3"></i></a>
+          <a href="https://www.instagram.com/hmacedo.arquitetura" class="text-decoration-none text-black">
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
           <a href="https://www.linkedin.com/in/heloise-macedo-da-silva-256a55122/"
-            class="text-decoration-none text-black ms-4"><i class="bi bi-linkedin fs-3"></i></a>
+            class="text-decoration-none text-black ms-4">
+            <i class="bi bi-linkedin fs-3"></i>
+          </a>
         </span>
       </div>
     </nav>
@@ -318,7 +341,7 @@
           </div>
 
           <!-- Container's Square's -->
-          <div class="col-md-6 d-flex align-items-center gap-4 container-square-main">
+          <div class="col-md-6 d-flex flex-column flex-md-row align-items-center gap-4 container-square-main">
             <div class="container-square d-flex flex-column justify-content-center align-items-center gap-2 text-white">
               <span class="material-symbols-outlined fs-1">
                 eco
