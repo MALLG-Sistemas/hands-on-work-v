@@ -1,0 +1,49 @@
+/* --- Global Styles --- */
+body {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* --- Navbar --- */
+.navbar-menu-nav {
+  height: 150px;
+  background: transparent;
+}
+
+.navbar-nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+}
+
+/* --- Footer --- */
+.container-footer {
+  background-color: #6f735f;
+  margin-top: 6.188rem;
+}
+
+.container-footer-images {
+  gap: 220px;
+}
+
+.container-footer-contacts {
+  margin-left: 665px;
+}
+
+/* --- Media Queries | Mobile --- */
+@media screen and (max-width: 430px) {
+  /* --- Navbar com menu de navegação --- */
+  .navbar .nav-link.active {
+    font-weight: 700;
+  }
+
+  /* --- Footer --- */
+  .container-footer-contacts {
+    margin-left: 0;
+  }
+}
