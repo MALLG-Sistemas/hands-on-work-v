@@ -4,9 +4,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Google Material Symbols -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <title>Home Page</title>
@@ -14,18 +31,36 @@
 
 <body>
   <header>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto p-0 col-md-8 navbar-menu navbar-menu-nav">
-      <div class="container-fluid p-0">
-        <a class="navbar-brand p-0 m-0" href="#">
-          <img src="./assets/images/images-hmacedo/logo-black.png" alt="Logo HMacedo Arquitetura" />
+
+    <!-- Navbar Mobile -->
+    <nav class="navbar navbar-dark fixed-top d-sm-none p-0">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand m-0 p-0" href="#">
+          <img src="./assets/images/logo-black.png" alt="Logo HMacedo Arquitetura" height="74">
         </a>
-        <!-- Botão toggle para mobile -->
-        <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
-          aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse justify-content-md-center collapse bg-container-styled" id="navbarsExample10" style>
+        <ul class="navbar-nav flex-row gap-3 text-uppercase me-2">
+          <li class="nav-item">
+            <a class="nav-link active text-black" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar Desktop -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto p-0 navbar-menu navbar-menu-nav d-none d-sm-flex">
+      <div class="container p-0">
+        <a class="navbar-brand p-0 m-0" href="#">
+          <img src="./assets/images/logo-black.png" alt="Logo HMacedo Arquitetura" />
+        </a>
+        <div class="navbar-collapse justify-content-md-center collapse bg-container-styled" id="navbarsExample10">
           <ul class="navbar-nav gap-4 text-uppercase px-4 list-menu-styled">
             <li class="nav-item">
               <a class="nav-link text-black active link-menu-styled" aria-current="page" href="./index.html">Home</a>
@@ -39,10 +74,13 @@
           </ul>
         </div>
         <span class="navbar-icons d-flex justify-content-end">
-          <a href="https://www.instagram.com/hmacedo.arquitetura" class="text-decoration-none text-black"><i
-              class="bi bi-instagram fs-3"></i></a>
+          <a href="https://www.instagram.com/hmacedo.arquitetura" class="text-decoration-none text-black">
+            <i class="bi bi-instagram fs-3"></i>
+          </a>
           <a href="https://www.linkedin.com/in/heloise-macedo-da-silva-256a55122/"
-            class="text-decoration-none text-black ms-4"><i class="bi bi-linkedin fs-3"></i></a>
+            class="text-decoration-none text-black ms-4">
+            <i class="bi bi-linkedin fs-3"></i>
+          </a>
         </span>
       </div>
     </nav>
@@ -52,134 +90,327 @@
     <!-- Section Banner -->
     <section class="banner d-flex align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 p-0">
-            <h2 class="title-banner">Lorem Ipsum</h2>
-            <p class="text-banner">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-              in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
-        <div class="row justify-content-start">
-          <div class="col-md-6 p-0">
-            <a href="#" class="btn btn-banner btn-lg">Loja<i class="bi bi-arrow-right"></i></a>
+        <div class="row justify-content-center">
+          <div class="col-md-12 d-flex justify-content-end p-0">
+            <div class="custom-rectangle-side"></div>
+            <div class="custom-rectangle text-start text-black">
+              <h2 class="title-banner text-uppercase">HMacedo Arquitetura e Interiores</h2>
+              <p class="text-banner">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+              </p>
+              <div class="d-flex justify-content-start">
+                <a href="#" class="btn btn-banner">Saiba Mais<i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Section Sobre/Texto -->
-    <section class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
-      <h1 class="display-5 text-uppercase m-0">Lorem ipsum dolor sit amet</h1>
-      <p class="mt-3">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-        faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-        pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-        tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-        Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-        hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-        per conubia nostra inceptos himenaeos:
-        <br />
-        <strong>Lorem ipsum dolor</strong>, Consectetur adipiscing elit
-        quisque faucibus ex sapien vitae;
-        <br />
-        <strong>Lorem ipsum dolor</strong>, Ex sapien vitae pellentesque sem
-        placerat in id;
-        <br />
-        <strong>Lorem</strong>, Placerat in id cursus mi pretium tellus duis.
-        Pretium tellus duis convallis tempus leo eu aenean;
-        <br />
-        <strong>Lorem ipsum dolor sit amet</strong> Nisl malesuada lacinia
-        integer nunc posuere ut hendrerit;
-        <br />
-        <strong>Lorem ipsum</strong> Sodales consequat magna ante condimentum
-        neque at luctus. Ligula congue sollicitudin erat viverra ac tincidunt
-        nam. Lectus commodo augue arcu dignissim velit aliquam imperdiet;
-        <br />
-        <strong>Lorem ispum</strong>, Cras eleifend turpis fames primis
-        vulputate ornare sagittis. Libero feugiat tristique accumsan maecenas
-        potenti ultricies habitant. Cubilia curae hac habitasse platea
-        dictumst lorem ipsum. Faucibus ex sapien vitae pellentesque sem
-        placerat in. Tempus leo eu aenean sed diam urna tempor;
-        <br />
-        Dignissim velit aliquam imperdiet mollis nullam volutpat porttitor.
-        Proin libero feugiat tristique accumsan maecenas potenti ultricies.
-        Sit amet consectetur adipiscing elit quisque faucibus ex. Sed diam
-        urna tempor pulvinar vivamus fringilla lacus. Aptent taciti sociosqu
-        ad litora torquent per conubia. Eros lobortis nulla molestie mattis
-        scelerisque maximus eget. Aliquet nisi sodales consequat magna ante
-        condimentum neque. Porta elementum a enim euismod quam justo lectus.
-        Fames primis vulputate ornare sagittis vehicula praesent dui.
-        Curabitur facilisi cubilia curae hac habitasse platea dictumst. Id
-        cursus mi pretium tellus duis convallis tempus. Nisl malesuada lacinia
-        integer nunc posuere ut hendrerit.
-      </p>
-      <img src="./assets/images/img-section-info.jpg" class="img-fluid rounded-3"
-        alt="Imagem com uma tartaruga marinha" />
+    <!-- Section Services -->
+    <section class="d-flex justify-content-center align-items-center section-services">
+      <div class="container p-0 container-services-mobile">
+        <div class="col-md-12 d-flex p-0">
+          <div class="d-flex justify-content-start flex-column gap-2">
+            <div class="container-title-separator d-flex flex-column gap-1">
+              <h2 class="title-service text-black m-0">Nossos Serviços</h2>
+              <div class="separator"></div>
+            </div>
+            <p class="m-0 text-services">
+              Dolor sit amet consectetur adipiscing elit quisque faucibus.
+            </p>
+          </div>
+
+        </div>
+      </div>
     </section>
 
-    <!-- Section Cards -->
-    <section class="text-center mt-5 col-md-8 mx-auto flex-column justify-content-center align-items-center px-2">
-      <!-- Card 1 -->
-      <div class="card border-0">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <div class="card-body p-0">
-              <h3 class="card-title text-uppercase mt-3">
-                Lorem ipsum dolor sit amet - Consectetur
-              </h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                Placerat in id cursus mi pretium tellus duis. Urna tempor
-                pulvinar vivamus fringilla lacus nec metus. Integer nunc
-                posuere ut hendrerit semper vel class. Conubia nostra inceptos
-                himenaeos orci varius natoque penatibus. Mus donec rhoncus
-                eros lobortis nulla molestie mattis. Purus est efficitur
-                laoreet mauris pharetra vestibulum fusce. Sodales consequat
-                magna ante condimentum neque at luctus. Ligula congue
-                sollicitudin erat viverra ac tincidunt nam. Lectus commodo
-                augue arcu dignissim velit aliquam imperdiet. Cras eleifend
-                turpis fames primis vulputate ornare sagittis. Libero feugiat
-                tristique accumsan maecenas potenti ultricies habitant.
-                Cubilia curae hac habitasse platea dictumst lorem ipsum.
+    <!-- Cards Services -->
+    <section class="d-flex justify-content-center align-items-center position-relative service-cards">
+
+      <!-- Background Retangle -->
+      <div class="bg-rectangle"></div>
+      <div class="container p-2 z-1 p-md-0">
+        <div class="row row-cols-1 row-cols-md-1 gx-0">
+          <div class="col d-flex flex-column flex-md-row justify-content-center text-center gap-4 p-2 p-md-0">
+
+            <!-- Card One -->
+            <div class="card card-service border-0 bg-transparent d-flex flex-column">
+              <div class="container-icon-card d-flex justify-content-center align-items-center">
+                <span class="material-symbols-outlined icon-card">
+                  house
+                </span>
+              </div>
+              <div class="card-body text-center service-card-body">
+                <h2 class="card-title title-card-service">Projeto</h2>
+                <p class="card-text text-card-service">
+                  Pellentesque ac bibendum Sed imperdiet enim ligula, vitae viverra justo porta vel. Duis eget felis
+                  bibendum, pretium mi sed, placerat ante.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card Two -->
+            <div class="card card-service border-0 bg-transparent d-flex flex-column">
+
+              <div class="container-icon-card d-flex justify-content-center align-items-center">
+                <span class="material-symbols-outlined icon-card">design_services</span>
+              </div>
+              <div class="card-body text-center service-card-body">
+                <h2 class="card-title title-card-service">Interiores</h2>
+                <p class="card-text text-card-service">
+                  Pellentesque ac bibendum Sed imperdiet enim ligula, vitae viverra justo porta vel. Duis eget felis
+                  bibendum, pretium mi sed, placerat ante.
+                </p>
+              </div>
+            </div>
+
+            <!-- Card Three -->
+            <div class="card card-service border-0 bg-transparent d-flex flex-column">
+              <div class="container-icon-card d-flex justify-content-center align-items-center">
+                <span class="material-symbols-outlined icon-card">
+                  architecture
+                </span>
+              </div>
+              <div class="card-body text-center service-card-body">
+                <h2 class="card-title title-card-service">Consultoria</h2>
+                <p class="card-text text-card-service">
+                  Pellentesque ac bibendum Sed imperdiet enim ligula, vitae viverra justo porta vel. Duis eget felis
+                  bibendum, pretium mi sed, placerat ante.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Carousel -->
+    <section class="d-flex justify-content-center align-items-center section-carousel">
+      <div class="container pt-5">
+        <div class="row row-cols-1 row-cols-md-1">
+          <div class="col d-flex flex-column flex-md-row justify-content-center text-center gap-4 p-0">
+
+            <!-- Container Title Carousel -->
+            <div class="col col-md-2 d-flex flex-column gap-2">
+              <h3 class="text-start text-black m-0 title-carousel">Projetos</h3>
+              <div class="separator separator-mobile"></div>
+              <p class="text-start m-0 text-carousel">
+                Dolor sit amet consectetur adipiscing elit quisque faucibus.
+              </p>
+            </div>
+
+            <!-- Container Carousel | Desktop -->
+            <div class="carousel-desktop">
+              <div id="carouselMultiItemExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-1.jpg" class="d-block"
+                          alt="Imagem de um projeto arquitetonico de uma casa" />
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-2.jpg" class="d-block"
+                          alt="Imagem de um projeto de design de interiores de um escritório">
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-3.jpg" class="d-block"
+                          alt="Imagem de um projetode design de interiores de um quarto de um apartamento">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-4.jpg" class="d-block"
+                          alt="Imagem de um projetode design de interiores de um quarto de um apartamento">
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-5.jpg" class="d-block"
+                          alt="Imagem de um projetode design de interiores de um banheiro">
+                      </div>
+                      <div class="col-md-4">
+                        <img src="./assets/images/img-carousel-6.jpg" class="d-block"
+                          alt="Imagem de um projetode design de interiores de um banheiro">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample"
+                  data-bs-slide="prev">
+                  <span class="material-symbols-sharp text-black carousel-control-prev-icon-material"
+                    aria-hidden="true">
+                    keyboard_arrow_left
+                  </span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMultiItemExample"
+                  data-bs-slide="next">
+                  <span class="material-symbols-sharp text-black carousel-control-next-icon-material"
+                    aria-hidden="true">
+                    keyboard_arrow_right
+                  </span>
+                  <span class="visually-hidden">Próximo</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Container Carousel | Mobile -->
+            <div class="carousel-mobile">
+              <div id="carouselMultiItemExampleMobile" class="carousel slide">
+                <div class="carousel-inner">
+
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                    <img src="./assets/images/img-carousel-1.jpg" class="d-block w-100"
+                      alt="Imagem de um projeto arquitetonico de uma casa">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/img-carousel-2.jpg" class="d-block w-100"
+                      alt="Imagem de um projeto de design de interiores de um escritório">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/img-carousel-3.jpg" class="d-block w-100"
+                      alt="Imagem de um projetode design de interiores de um quarto de um apartamento">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/img-carousel-4.jpg" class="d-block w-100"
+                      alt="Imagem de um projetode design de interiores de um quarto de um apartamento">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/img-carousel-5.jpg" class="d-block w-100"
+                      alt="Imagem de um projetode design de interiores de um banheiro">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/img-carousel-6.jpg" class="d-block w-100"
+                      alt="Imagem de um projetode design de interiores de um banheiro">
+                  </div>
+                </div>
+
+                <!-- Indicadores do Carousel - Dots -->
+                <div class="carousel-indicators carousel-indicators-second">
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselMultiItemExampleMobile" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section class="d-flex justify-content-center position-relative service-about">
+
+      <!-- Background Retangle -->
+      <div class="bg-rectangle-two"></div>
+      <div class="container z-1 p-0">
+        <div class="row row-cols-1 row-cols-md-1 gx-0 justify-content-between">
+          <div class="col-md-7 d-flex flex-column justify-content-start text-start gap-4 gap-md-5 px-4 px-md-0">
+            <div class="container-title-separator d-flex flex-column gap-2">
+              <h2 class="text-black m-0 title-about">A Arquiteta</h2>
+              <div class="separator"></div>
+              <p class="text-about m-0">
+                Dolor sit amet consectetur adipiscing elit quisque fauci.
+              </p>
+            </div>
+            <p class="text-black m-0 text-about-two">
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae pellentesque
+              sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu aenean sed. Sed diam
+              urna tempor pulvinar vivamus fringilla lacus.
+            </p>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center align-items-center pt-4 pt-md-0">
+            <img src="./assets/images/img-perfil.jpg" class="img-fluid" alt="Imagem da arquiteta Heloise Macedo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Video -->
+    <section class="d-flex justify-content-center position-relative section-video">
+
+      <div class="container p-0">
+        <div class="row row-cols-1 row-cols-md-1 gx-0 justify-content-between">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-start text-start gap-5 px-0 pt-3 pt-md-0 order-2 order-md-1">
+            <div class="ratio ratio-16x9">
+
+              <!-- LEMBRAR DE SUBSTITUIR O VIDEO -->
+              <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div
+            class="col-md-5 d-flex flex-column justify-content-start text-start gap-5 pt-5 pt-md-0 px-4 px-md-0 order-1 order-md-2">
+            <div class="container-title-separator d-flex flex-column gap-2">
+              <h2 class="text-black m-0 title-video">Apresentação</h2>
+              <div class="separator"></div>
+              <p class="text-video m-0">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Elit quisque faucibus ex sapien vitae
+                pellentesque sem. Sem placerat in id cursus mi pretium tellus. Tellus duis convallis tempus leo eu
+                aenean sed. Sed diam urna tempor pulvinar vivamus fringilla lacus. Lacus nec metus bibendum egestas
+                iaculis massa nisl. Nisl malesuada lacinia integer nunc posuere ut hendrerit.
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="./assets/images/turtle-brinquedo.jpg" class="img-fluid rounded-3"
-              alt="Imagem de uma tartaruga de brinquedo" />
-          </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card 2 -->
-      <div class="card mt-5 border-0">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <img src="./assets/images/pessoas-volutarias.jpg" class="img-fluid rounded-3"
-              alt="Imagem de pessoas voluntárias catando lixo na praia" />
-          </div>
-          <div class="col-md-6">
-            <div class="card-body p-0">
-              <h3 class="card-title text-uppercase mt-3">
-                Lorem ipsum - Consectetur
-              </h3>
-              <p class="card-text px-2">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                Quisque faucibus ex sapien vitae pellentesque sem placerat. In
-                id cursus mi pretium tellus duis convallis. Tempus leo eu
-                aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus
-                nec metus bibendum egestas. Iaculis massa nisl malesuada
-                lacinia integer nunc posuere. Ut hendrerit semper vel class
-                aptent taciti sociosqu. Ad litora torquent per conubia nostra
-                inceptos himenaeos.
+    <!-- Section Why -->
+    <section class="d-flex justify-content-center align-items-center section-why position-relative">
+
+      <!-- Background Retangle -->
+      <div class="bg-rectangle-three"></div>
+      <div class="container z-1 px-3 p-md-0">
+        <div class="row row-cols-1 row-cols-md-1">
+          <div class="col-md-12 d-flex flex-column justify-content-start text-start gap-5">
+            <div class="container-title-separator d-flex flex-column gap-2">
+              <h2 class="text-black m-0 title-why">Porque HMacedo?</h2>
+              <div class="separator"></div>
+              <p class="text-why m-0">
+                Dolor sit amet consectetur adipiscing elit quisque faucibus.
               </p>
+            </div>
+          </div>
+
+          <!-- Container's Square's -->
+          <div class="col-md-6 d-flex flex-column flex-md-row align-items-center gap-4 container-square-main">
+            <div class="container-square d-flex flex-column justify-content-center align-items-center gap-2 text-white">
+              <span class="material-symbols-outlined" style="font-size: 3rem !important;">
+                eco
+              </span>
+              <p class=" text-square m-0">Ecológica</p>
+            </div>
+            <div class="container-square d-flex flex-column justify-content-center align-items-center gap-2 text-white">
+              <span class="material-symbols-outlined" style="font-size: 3rem !important;">
+                architecture
+              </span>
+              <p class="text-square m-0">Confiável</p>
+            </div>
+            <div class="container-square d-flex flex-column justify-content-center align-items-center gap-2 text-white">
+              <span class="material-symbols-outlined" style="font-size: 3rem !important;">
+                volunteer_activism
+              </span>
+              <p class=" text-square m-0">Paixão</p>
             </div>
           </div>
         </div>
@@ -187,125 +418,115 @@
     </section>
   </main>
 
-  <section class="col-md-12 section-footer">
-    <div class="container mt-5 col-md-8 mx-auto">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-        <div class="d-flex col-md-12 pt-3 justify-content-between">
-          <img src="./assets/icons/icon-turtle.svg" alt="Icone de desenho de uma tartaruga" />
-          <button class="btn btn-footer">
-            <a href="#" class="text-dark text-decoration-none">Lorem</a>
-          </button>
+  <!-- Footer -->
+  <div class="container-fluid container-footer">
+    <div class="container p-0">
+
+      <!-- Container Footer Logo -->
+      <footer class="d-flex flex-column flex-md-row justify-content-between border-bottom">
+        <div class="col-md-4 d-flex align-items-center pt-5">
+          <a href="/" class="d-flex" aria-label="HMacedo Arquitetura">
+            <img src="./assets/images/logo-white.png" alt="Logo HMacedo Arquitetura" class="logo-footer img-fluid" />
+          </a>
         </div>
-        <div class="border-top w-100 mt-3"></div>
-        <div class="col mt-4">
-          <h4 class="text-white">Lorem Ipsum Dolor Sit Amet</h4>
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <img src="./assets/images/croqui-cidade-footer.png" alt="Croqui de uma cidade" class="img-fluid" />
         </div>
-        <div class="col mt-4 title-menu-footer">
-          <h5>Title Menu Footer</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col mt-4 title-menu-footer">
-          <h5>Title Menu Footer</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col mt-4 title-menu-footer">
-          <h5>Title Menu Footer</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-white text-decoration-none">Submenu Footer</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col mt-4 title-menu-footer">
-          <h5>Contatos e Endereço</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="mailto:" class="nav-link p-0 text-white text-decoration-none"><i class="bi bi-envelope"></i>
-                mallgsistemas@mallg.com.br</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="https://wa.me/554832362015" class="nav-link p-0 text-white text-decoration-none"><i
-                  class="bi bi-telephone"></i> +55 328 1565 2994</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="https://www.google.com/maps/search/?api=1&query=R.+Prof.+Ademir+Francisco,+s%2Fn+-+Barra+da+Lagoa,+Florian%C3%B3polis+-+SC"
-                class="nav-link p-0 text-white text-decoration-none"><i class="bi bi-geo-alt"></i> R. Prof. Sem Nome,
-                s/n - Barra
-                Fantasia, Cidade Fantasia - SC</a>
-            </li>
-          </ul>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center w-100 mt-5 pb-4">
-          <div class="d-flex gap-5 mb-3 mb-md-0">
-            <p class="text-white mb-0 text-nowrap">Termos e Condições</p>
-            <p class="text-white mb-0 text-nowrap">Política de Privacidade</p>
+      </footer>
+
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-6 pt-3 mt-3 pt-md-5 mt-md-5">
+
+        <!-- Container Social Medias -->
+        <div class="col-md-3 justify-content-end d-flex flex-column">
+          <p class="fw-medium">Acompanhe-nos nas redes</p>
+          <div class="d-flex gap-4 justify-content-start">
+            <a href="https://www.instagram.com/hmacedo.arquitetura" class="link-body-emphasis"
+              aria-label="Instagram HMacedo Arquitetura">
+              <i class="bi bi-instagram fs-3"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/heloise-macedo-da-silva-256a55122/" class="link-body-emphasis"
+              aria-label="Linkedin HMacedo Arquitetura">
+              <i class="bi bi-linkedin fs-3"></i>
+            </a>
           </div>
-          <div class="d-flex justify-content-end">
-            <ul class="list-unstyled d-flex m-0">
-              <li class="">
-                <a class="link-body-emphasis text-white" href="#" target="_blank" aria-label="Facebook"><i
-                    class="bi bi-facebook"></i>
-                </a>
-              </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis text-white" href="#" target="_blank" aria-label="Instagram"><i
-                    class="bi bi-instagram"></i>
-                </a>
-              </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis text-white" href="#" target="_blank" aria-label="X"><i
-                    class="bi bi-twitter-x"></i>
-                </a>
-              </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis text-white" href="#" target="_blank" aria-label="Youtube"><i
-                    class="bi bi-youtube"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+        </div>
+
+        <div class="col-md-1 mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Home</h5>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Serviços</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Projetos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Consultoria</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Design de Interiores</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Regularização de Imóveis</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Projetos</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Apartamento 01</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Apartamento 02</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Apartamento 03</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Studio de Beleza</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Edificação Residencial</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Blog</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Novidades</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Arquitetura</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Interior</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-black">Dicas</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-3 mt-1 mt-md-5 d-flex flex-column container-footer-contacts">
+          <h5>Contatos</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="https://api.whatsapp.com/send?phone=5548991481873" target="_blank"
+                class="text-decoration-none text-black">
+                <i class="bi bi-telephone fs-5 me-2"></i>
+                +55 48 9 9148-1873
+              </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="mailto:hmacedo.arquitetura@outlook.com" class="text-decoration-none text-black">
+                <i class="bi bi-envelope fs-5 me-2"></i>
+                hmacedo.arquitetura@outlook.com
+              </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://maps.app.goo.gl/v2wYWzUcavXGMTsd7" target="_blank"
+                class="text-decoration-none text-black">
+                <i class="bi bi-geo-alt fs-5 me-2"></i>
+                São José/SC - Brasil
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column border-top border-black">
+          <a href="https://github.com/MALLG-Sistemas" class="text-decoration-none text-black" target="_blank">
+            <p class="text-center m-0 py-3">© Copyright 2025 - MALLG Sistemas</p>
+          </a>
         </div>
       </footer>
     </div>
-  </section>
-  <section class="d-flex flex-column justify-content-between align-items-center w-100 section-copy">
-    <p class="text-white mb-0 pt-2 text-nowrap">
-      Copyright © 2025 MALLG Sistemas LTDA
-    </p>
-    <p class="text-white mb-2 text-nowrap">Todos os direitos reservados</p>
-  </section>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
