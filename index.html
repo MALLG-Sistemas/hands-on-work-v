@@ -54,17 +54,12 @@
       </div>
     </nav>
 
-    <!-- Navbar Desktop (exibida a partir de telas sm) -->
+    <!-- Navbar Desktop -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-auto p-0 navbar-menu navbar-menu-nav d-none d-sm-flex">
       <div class="container p-0">
         <a class="navbar-brand p-0 m-0" href="#">
           <img src="./assets/images/logo-black.png" alt="Logo HMacedo Arquitetura" />
         </a>
-        <!-- Botão toggle para mobile -->
-        <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10"
-          aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="navbar-collapse justify-content-md-center collapse bg-container-styled" id="navbarsExample10">
           <ul class="navbar-nav gap-4 text-uppercase px-4 list-menu-styled">
             <li class="nav-item">
@@ -499,19 +494,32 @@
           <h5>Contatos</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <i class="bi bi-telephone fs-5 me-2"></i> +55 48 9 9148-1873
+              <a href="https://api.whatsapp.com/send?phone=5548991481873" target="_blank"
+                class="text-decoration-none text-black">
+                <i class="bi bi-telephone fs-5 me-2"></i>
+                +55 48 9 9148-1873
+              </a>
             </li>
             <li class="nav-item mb-2">
-              <i class="bi bi-envelope fs-5 me-2"></i> hmacedo.arquitetura@outlook.com
+              <a href="mailto:hmacedo.arquitetura@outlook.com" class="text-decoration-none text-black">
+                <i class="bi bi-envelope fs-5 me-2"></i>
+                hmacedo.arquitetura@outlook.com
+              </a>
             </li>
             <li class="nav-item mb-2">
-              <i class="bi bi-geo-alt fs-5 me-2"></i> São José/SC - Brasil
+              <a href="https://maps.app.goo.gl/v2wYWzUcavXGMTsd7" target="_blank"
+                class="text-decoration-none text-black">
+                <i class="bi bi-geo-alt fs-5 me-2"></i>
+                São José/SC - Brasil
+              </a>
             </li>
           </ul>
         </div>
 
         <div class="col-md-12 d-flex justify-content-center align-items-center flex-column border-top border-black">
-          <p class="text-center m-0 py-3">© Copyright 2025 - MALLG Sistemas</p>
+          <a href="https://github.com/MALLG-Sistemas" class="text-decoration-none text-black" target="_blank">
+            <p class="text-center m-0 py-3">© Copyright 2025 - MALLG Sistemas</p>
+          </a>
         </div>
       </footer>
     </div>
