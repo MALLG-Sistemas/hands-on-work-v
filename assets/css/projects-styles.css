@@ -280,6 +280,15 @@ body {
     font-size: 2.8125rem;
   }
 
+  /* --- Section Interior AP --- */
+  .section-interior-ap {
+    padding-top: 1.25rem;
+  }
+
+  .text-interior-ap {
+    font-size: 1.25rem;
+  }
+
   /* --- Footer --- */
   .container-footer-contacts {
     margin-left: 0;
