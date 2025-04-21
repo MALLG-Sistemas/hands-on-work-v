@@ -1,3 +1,4 @@
+/* --- Global Styles --- */
 body {
   font-family: "Montserrat", "Poppins", sans-serif;
   line-height: 1.6;
@@ -14,7 +15,7 @@ body {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-/* --- Navbar com menu de navegação --- */
+/* --- Navbar --- */
 .navbar-menu-nav {
   height: 150px;
   background: transparent;
@@ -307,8 +308,7 @@ body {
   margin-left: 665px;
 }
 
-/* Media Queries - Mobile --- */
-
+/* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
   .navbar .nav-link.active {
