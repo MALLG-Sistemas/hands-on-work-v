@@ -123,13 +123,11 @@ body {
   .title-banner {
     font-size: 3.125rem;
     font-weight: 600;
-    line-height: normal;
   }
 
   .text-banner {
     font-size: 1rem;
     font-weight: 400;
-    line-height: normal;
   }
 }
 
@@ -139,7 +137,7 @@ body {
 }
 
 .title-service {
-  font-size: 65px;
+  font-size: 4.063rem;
   font-weight: 700;
 }
 
@@ -209,7 +207,7 @@ body {
 }
 
 .title-carousel {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 700;
 }
 
@@ -287,6 +285,54 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
   padding-top: 2.5rem;
+}
+
+/* --- Section Why --- */
+
+.section-why {
+  padding-top: 6.24rem;
+}
+
+.bg-rectangle-three {
+  position: absolute;
+  bottom: 40px;
+  left: 28px;
+  width: 1193px;
+  height: 208px;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.title-why {
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.text-why {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 2.75rem;
+}
+
+.container-square-main {
+  margin-left: 629px;
+  padding-top: 2.375rem;
+}
+
+.container-square {
+  width: 170px;
+  height: 170px;
+  flex-shrink: 0;
+  background: #d99197;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.text-square {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /* --- Footer --- */
