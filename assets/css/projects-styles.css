@@ -163,6 +163,11 @@ body {
   font-weight: 400;
 }
 
+/* --- Section Interior AP 2 --- */
+.section-interior-ap-two {
+  padding-top: 4.125rem;
+}
+
 /* --- Footer --- */
 .container-footer {
   background-color: #6f735f;
