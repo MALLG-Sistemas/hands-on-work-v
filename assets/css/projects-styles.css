@@ -227,7 +227,6 @@ body {
   }
 
   /* --- Section Projects --- */
-
   .section-projects {
     padding-top: 1.88rem;
   }
@@ -256,6 +255,20 @@ body {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 27px;
+  }
+
+  /* --- Section Interiores --- */
+  .section-interior {
+    padding-top: 2.5rem;
+  }
+
+  .title-interior {
+    font-size: 1.875rem;
+  }
+
+  .text-interior {
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
   }
 
   /* --- Footer --- */
