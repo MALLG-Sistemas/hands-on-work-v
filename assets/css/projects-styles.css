@@ -289,7 +289,16 @@ body {
     font-size: 1.25rem;
   }
 
+  /* --- Section Interior AP 2 --- */
+  .section-interior-ap-two {
+    padding-top: 1.25rem;
+  }
+
   /* --- Footer --- */
+  .container-footer {
+    margin-top: 1.25rem;
+  }
+
   .container-footer-contacts {
     margin-left: 0;
   }
