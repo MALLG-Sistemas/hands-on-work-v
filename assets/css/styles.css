@@ -60,7 +60,7 @@ body {
 
 /* --- Seção banner com a imagem de fundo --- */
 .banner {
-  background: url("../images/images-hmacedo/ipes-house-banner.jpg");
+  background: url("../images/ipes-house-banner.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
