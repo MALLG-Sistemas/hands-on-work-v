@@ -179,6 +179,11 @@ body {
   gap: 220px;
 }
 
+.nav-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .container-footer-contacts {
   margin-left: 665px;
 }
