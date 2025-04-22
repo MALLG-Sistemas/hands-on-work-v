@@ -158,6 +158,17 @@ body {
   z-index: 0;
 }
 
+/* --- Section Pinturas Three --- */
+.bg-rectangle-three {
+  width: 1380px;
+  height: 332px;
+  position: absolute;
+  bottom: 175px;
+  left: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
