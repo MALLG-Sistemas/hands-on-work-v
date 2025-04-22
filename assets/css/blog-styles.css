@@ -78,10 +78,40 @@ body {
   margin-left: 10px;
 }
 
+/* --- Section Blog --- */
+.section-blog {
+  padding-top: 6.25rem;
+}
+
+.separator {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+}
+
+.title-blog {
+  font-size: 4.0625rem;
+  font-weight: 700;
+}
+
+.text-blog {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
   .navbar .nav-link.active {
     font-weight: 700;
+  }
+
+  /* --- Section Blog --- */
+  .separator-mobile {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
   }
 }
