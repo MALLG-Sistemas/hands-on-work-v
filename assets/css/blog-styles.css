@@ -147,6 +147,17 @@ body {
   font-weight: 400;
 }
 
+/* --- Seção Pinturas Dois --- */
+.bg-rectangle-two {
+  width: 1380px;
+  height: 332px;
+  position: absolute;
+  bottom: 175px;
+  left: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
@@ -155,12 +166,6 @@ body {
   }
 
   /* --- Seção Banner --- */
-
-  /* --- Seção banner com a imagem de fundo --- */
-  .banner {
-    background-attachment: scroll;
-  }
-
   .custom-rectangle-side {
     width: 23.954px;
     height: 357.797px;
@@ -240,5 +245,15 @@ body {
 
   .img-pinturas-mobile {
     max-height: 208px;
+  }
+
+  /* --- Seção Pinturas Dois --- */
+  .bg-rectangle-two {
+    width: 190px;
+    height: 850px;
+    top: 80px;
+    left: 10px;
+    background: #f2e7dc;
+    z-index: 0;
   }
 }
