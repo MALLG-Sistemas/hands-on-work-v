@@ -22,13 +22,11 @@ body {
 }
 
 /* --- Seção Banner --- */
-
-/* --- Seção banner com a imagem de fundo --- */
 .banner {
   background: url("../images/z-house-banner.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-position: center calc(100% - 8rem);
+  background-position: center calc(100% - 10rem);
   background-repeat: no-repeat;
   padding-top: 9.375rem;
   height: 50rem;
@@ -193,6 +191,11 @@ body {
   /* --- Navbar com menu de navegação --- */
   .navbar .nav-link.active {
     font-weight: 700;
+  }
+
+  /* --- Seção Banner --- */
+  .banner {
+    background-position: center;
   }
 
   /* --- Seção Banner --- */
