@@ -247,7 +247,7 @@ body {
 
   /* --- Section Pinturas --- */
   .section-pinturas {
-    padding-top: 1.25rem;
+    padding-top: 2.25rem !important;
   }
 
   .bg-rectangle {
@@ -273,9 +273,9 @@ body {
     background-color: #000;
   }
 
-  .img-pinturas-mobile {
+  /* .img-pinturas-mobile {
     max-height: 208px;
-  }
+  } */
 
   /* --- Seção Pinturas Dois --- */
   .bg-rectangle-two {
