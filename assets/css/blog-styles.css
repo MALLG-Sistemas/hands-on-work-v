@@ -282,6 +282,16 @@ body {
     z-index: 0;
   }
 
+  /* --- Section Pinturas Three --- */
+  .bg-rectangle-three {
+    width: 190px;
+    height: 850px;
+    top: 80px;
+    left: 10px;
+    background: #f2e7dc;
+    z-index: 0;
+  }
+
   /* --- Footer --- */
   .container-footer-contacts {
     margin-left: 0;
