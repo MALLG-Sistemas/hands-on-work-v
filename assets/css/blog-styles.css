@@ -101,6 +101,52 @@ body {
   font-weight: 400;
 }
 
+/* --- Section Pinturas --- */
+.section-pinturas {
+  padding-top: 9.69rem;
+}
+
+.separator-pinturas {
+  width: 50px;
+  height: 2px;
+  background-color: #000;
+}
+
+.bg-rectangle {
+  width: 1398px;
+  height: 332px;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.title-pinturas {
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.text-pinturas {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #6f6f6f;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
