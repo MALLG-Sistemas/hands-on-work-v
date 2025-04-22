@@ -169,6 +169,20 @@ body {
   z-index: 0;
 }
 
+/* --- Footer --- */
+.container-footer {
+  background-color: #6f735f;
+  margin-top: 6.188rem;
+}
+
+.container-footer-images {
+  gap: 220px;
+}
+
+.container-footer-contacts {
+  margin-left: 665px;
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
@@ -266,5 +280,10 @@ body {
     left: 10px;
     background: #f2e7dc;
     z-index: 0;
+  }
+
+  /* --- Footer --- */
+  .container-footer-contacts {
+    margin-left: 0;
   }
 }
