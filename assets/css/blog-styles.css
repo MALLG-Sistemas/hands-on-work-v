@@ -1,0 +1,289 @@
+/* --- Global Styles --- */
+body {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* --- Navbar --- */
+.navbar-menu-nav {
+  height: 150px;
+  background: transparent;
+}
+
+.navbar-nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+}
+
+/* --- Seção Banner --- */
+
+/* --- Seção banner com a imagem de fundo --- */
+.banner {
+  background: url("../images/z-house-banner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center calc(100% - 8rem);
+  background-repeat: no-repeat;
+  padding-top: 9.375rem;
+  height: 50rem;
+  width: 100%;
+}
+
+.custom-rectangle-side {
+  width: 4.6875rem;
+  opacity: 0.4;
+  background: #6f735f;
+  mix-blend-mode: multiply;
+}
+
+.custom-rectangle {
+  display: flex;
+  flex-direction: column;
+  max-width: 714px;
+  background: #bfbeaa;
+  box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+  padding: 2.1875rem 2.4375rem;
+  gap: 2.4375rem;
+}
+
+.title-banner {
+  font-size: 3.4375rem;
+  font-weight: 700;
+  letter-spacing: -0.06875rem;
+  margin: 0;
+}
+
+.text-banner {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.563rem;
+  margin: 0;
+}
+
+.btn-banner {
+  color: #fff;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  padding: 0.625rem 1.25rem;
+}
+
+.bi-arrow-right {
+  margin-left: 10px;
+}
+
+/* --- Section Blog --- */
+.section-blog {
+  padding-top: 6.25rem;
+}
+
+.separator {
+  width: 100px;
+  height: 3px;
+  background-color: #000;
+}
+
+.title-blog {
+  font-size: 4.0625rem;
+  font-weight: 700;
+}
+
+.text-blog {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+/* --- Section Pinturas --- */
+.section-pinturas {
+  padding-top: 9.69rem;
+}
+
+.separator-pinturas {
+  width: 50px;
+  height: 3px;
+  background-color: #000;
+}
+
+.bg-rectangle {
+  width: 1380px;
+  height: 332px;
+  position: absolute;
+  bottom: 210px;
+  right: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+.title-pinturas {
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+
+.text-pinturas {
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  color: #6f6f6f;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* --- Seção Pinturas Dois --- */
+.bg-rectangle-two {
+  width: 1380px;
+  height: 332px;
+  position: absolute;
+  bottom: 175px;
+  left: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+/* --- Section Pinturas Three --- */
+.bg-rectangle-three {
+  width: 1380px;
+  height: 332px;
+  position: absolute;
+  bottom: 175px;
+  left: 0;
+  background: #f2e7dc;
+  z-index: 0;
+}
+
+/* --- Footer --- */
+.container-footer {
+  background-color: #6f735f;
+  margin-top: 6.188rem;
+}
+
+.container-footer-images {
+  gap: 220px;
+}
+
+.container-footer-contacts {
+  margin-left: 665px;
+}
+
+/* --- Media Queries | Mobile --- */
+@media screen and (max-width: 430px) {
+  /* --- Navbar com menu de navegação --- */
+  .navbar .nav-link.active {
+    font-weight: 700;
+  }
+
+  /* --- Seção Banner --- */
+  .custom-rectangle-side {
+    width: 23.954px;
+    height: 357.797px;
+  }
+
+  .custom-rectangle {
+    max-width: 277px;
+    padding: 1.875rem 0.625rem 1.875rem 2.1875rem;
+    gap: 0.9375rem;
+  }
+
+  .title-banner {
+    font-size: 1.9375rem;
+    letter-spacing: -0.03875rem;
+  }
+
+  .text-banner {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    letter-spacing: -0.02rem;
+  }
+
+  .btn-banner {
+    display: flex;
+    align-items: center;
+    width: 217px;
+    height: 40px;
+    gap: 0.625rem;
+  }
+
+  /* --- Section Blog --- */
+  .section-blog {
+    padding-top: 1.25rem;
+  }
+
+  .separator-mobile {
+    width: 50px;
+    height: 3px;
+    background-color: #000;
+  }
+
+  .title-blog {
+    font-size: 2.8125rem;
+  }
+
+  .text-blog {
+    font-size: 1.125rem;
+  }
+
+  /* --- Section Pinturas --- */
+  .section-pinturas {
+    padding-top: 1.25rem;
+  }
+
+  .bg-rectangle {
+    width: 190px;
+    height: 850px;
+    top: 80px;
+    right: 10px;
+    background: #f2e7dc;
+    z-index: 0;
+  }
+
+  .title-pinturas {
+    font-size: 1.875rem;
+  }
+
+  .text-pinturas {
+    font-size: 1.125rem;
+  }
+
+  .separator-pinturas {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+  }
+
+  .img-pinturas-mobile {
+    max-height: 208px;
+  }
+
+  /* --- Seção Pinturas Dois --- */
+  .bg-rectangle-two {
+    width: 190px;
+    height: 850px;
+    top: 80px;
+    left: 10px;
+    background: #f2e7dc;
+    z-index: 0;
+  }
+
+  /* --- Footer --- */
+  .container-footer-contacts {
+    margin-left: 0;
+  }
+}
