@@ -19,8 +19,9 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/projects-styles.css" />
-  <title>Projetos</title>
+  <link rel="stylesheet" href="./assets/css/blog-styles.css" />
+
+  <title>Blog</title>
 </head>
 
 <body>
@@ -39,10 +40,10 @@
             <a class="nav-link text-black" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active text-black" href="./projects.html">Projetos</a>
+            <a class="nav-link text-black" href="./projects.html">Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-black" href="./blog.html">Blog</a>
+            <a class="nav-link active text-black" href="./blog.html">Blog</a>
           </li>
         </ul>
       </div>
@@ -60,10 +61,10 @@
               <a class="nav-link text-black link-menu-styled" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black active link-menu-styled" href="./projects.html">Projetos</a>
+              <a class="nav-link text-black link-menu-styled" href="./projects.html">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black link-menu-styled" href="./blog.html">Blog</a>
+              <a class="nav-link text-black active link-menu-styled" href="./blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -81,7 +82,6 @@
   </header>
 
   <main>
-
     <!-- Section Banner -->
     <section class="banner d-flex align-items-center">
       <div class="container">
@@ -104,17 +104,15 @@
       </div>
     </section>
 
-    <!-- Section Projects -->
-    <section class="d-flex position-relative section-projects">
+    <!-- Section Blog -->
+    <section class="d-flex position-relative section-blog">
 
-      <!-- Background Retangle -->
-      <div class="bg-rectangle-projects"></div>
-      <div class="container-xxl z-1">
+      <div class="container-xxl z-1 p-0">
         <div class="row justify-content-center m-0">
-          <div class="col d-flex justify-content-center flex-column p-0 gap-2">
-            <h2 class="title-projects m-0">Projetos</h2>
+          <div class="col d-flex justify-content-center flex-column px-3 p-md-0 gap-2">
+            <h2 class="title-blog m-0">Blog</h2>
             <div class="separator separator-mobile"></div>
-            <p class="text-projects m-0">
+            <p class="text-blog m-0">
               Dolor sit amet consectetur adipiscing elit quisque faucibus.
             </p>
           </div>
@@ -122,118 +120,144 @@
       </div>
     </section>
 
-    <!-- Section Interiores -->
-    <section class="section-interior">
-      <div class="container-xxl">
-        <div class="row justify-content-between align-items-center">
+    <!-- Section Pinturas -->
+    <section class="d-flex justify-content-center align-items-center section-pinturas position-relative">
 
-          <!-- Container Title e Image -->
-          <div class="col-lg-7 d-flex flex-column justify-content-between p-0">
-            <h2 class="title-interior px-2 px-md-0">Interiores</h2>
-            <div class="separator-interior"></div>
-            <p class="text-interior m-0 px-2 px-md-0">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex
-              sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus
-              duis. Pretium tellus duis convallis tempus leo eu aenean.
+      <!-- Background Rectangle -->
+      <div class="bg-rectangle"></div>
+
+      <div class="container-xxl z-1 p-0">
+        <div class="row justify-content-between m-0">
+
+          <div class="col-md-3 d-flex flex-column px-3 p-md-0 gap-2">
+            <h2 class="title-pinturas m-0">Pinturas</h2>
+            <div class="separator-pinturas"></div>
+            <p class="text-pinturas m-0">
+              Pinturas de parede que melhoram a sensação do ambiente.
             </p>
-            <img src="./assets/images/img-interior-design-ap-1.jpg" alt="Interiores" class="img-fluid mt-3" />
           </div>
 
-          <!-- Container Images -->
-          <div class="col-lg-5 mt-4 mt-md-0">
-            <div class="row g-4 flex-column">
-              <div class="col-12 px-0 px-md-4">
-                <img src="./assets/images/img-interior-design-2.jpg" alt="Imagem adicional 1" class="img-fluid" />
-              </div>
-              <div class="col-12 px-0 px-md-4">
-                <img src="./assets/images/img-interior-design-3.jpg" alt="Imagem adicional 2" class="img-fluid" />
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/ampliar-img.png" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tom claro" />
+              <div class="card-body text-center p-0 pt-2 pt-md-0">
+                <h5 class="card-title">Ampliar</h5>
+                <p class="card-text">
+                  Para ter a sensação de amplitude no ambiente, a dica é usar tons claro nas paredes e no teto.
+                </p>
               </div>
             </div>
           </div>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Últimos Projetos -->
-    <section class="d-flex section-latest-projects">
-      <div class="container-xxl z-1">
-        <div class="row justify-content-center m-0">
-          <div class="col d-flex justify-content-center flex-column p-0 gap-2">
-            <h2 class="title-latest-projects m-0">Últimos Projetos</h2>
-            <div class="separator-interior separator-mobile"></div>
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/compactar-img.jpg" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tom claro" />
+              <div class="card-body text-center p-0">
+                <h5 class="card-title">Compactar</h5>
+                <p class="card-text">
+                  Se o ambiente é grande de mais, a dica é usar tons escuros nas paredes e no teto, nos dão sensação de
+                  aconchego.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Section Interiores AP -->
-    <section class="d-flex section-interior-ap">
-      <div class="container-xxl">
-        <div class="row justify-content-center m-0">
-          <div class="col d-flex justify-content-center flex-column p-0 gap-2">
-            <h2 class="title-interior-ap m-0">Interiores | AP </h2>
-            <div class="separator-interior separator-mobile"></div>
-            <p class="text-interior-ap m-0">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus
-              ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in
-              id cursus mi.
+    <!-- Section Pinturas Two -->
+    <section class="d-flex justify-content-center align-items-center section-pinturas position-relative">
+
+      <!-- Background Rectangle -->
+      <div class="bg-rectangle-two"></div>
+
+      <div class="container-xxl z-1 p-0">
+        <div class="row justify-content-between m-0">
+
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0 order-2 order-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/estreitar-img.jpg" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tons escuros" />
+              <div class="card-body text-center p-0 pt-2 pt-md-0">
+                <h5 class="card-title">Estreitar</h5>
+                <p class="card-text">
+                  Para estreitar um ambiente a dica é usar tons escuros nas paredes opostas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0 order-2 order-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/alargar-img.jpg" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tom claro" />
+              <div class="card-body text-center p-0">
+                <h5 class="card-title">Alargar</h5>
+                <p class="card-text">
+                  Para alargar um ambiente a dica é usar tons claros nas paredes opostas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 d-flex flex-column px-3 p-md-0 gap-2 order-1 order-md-0">
+            <h2 class="title-pinturas m-0">Pinturas</h2>
+            <div class="separator-pinturas"></div>
+            <p class="text-pinturas m-0">
+              Pinturas de parede que melhoram a sensação do ambiente.
             </p>
           </div>
         </div>
-
-        <div class="row g-4 mt-1 mt-md-4">
-          <div class="col-lg-6 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-ap-1.jpg" alt="Design de Interiores de um escritório"
-              class="img-fluid mt-3" />
-          </div>
-          <div class="col-lg-6 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-ap-2.jpg" alt="Design de Interiores de um escritório"
-              class="img-fluid mt-3" />
-          </div>
-        </div>
       </div>
     </section>
 
-    <!-- Section Interiores AP 02 -->
-    <section class="d-flex section-interior-ap-two">
-      <div class="container-xxl">
-        <div class="row justify-content-center m-0">
-          <div class="col d-flex justify-content-center flex-column p-0 gap-2">
-            <h2 class="title-interior-ap m-0">Interiores | AP </h2>
-            <div class="separator-interior separator-mobile"></div>
-            <p class="text-interior-ap m-0">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus
-              ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in
-              id cursus mi.
+    <!-- Section Pinturas Three -->
+    <section class="d-flex justify-content-center align-items-center section-pinturas position-relative pt-5 pt-md-0">
+
+      <!-- Background Rectangle -->
+      <div class="bg-rectangle-three"></div>
+
+      <div class="container-xxl z-1 p-0">
+        <div class="row justify-content-between m-0">
+
+          <div class="col-md-3 d-flex flex-column px-3 p-md-0 gap-2">
+            <h2 class="title-pinturas m-0">Pinturas</h2>
+            <div class="separator-pinturas"></div>
+            <p class="text-pinturas m-0">
+              Pinturas de parede que melhoram a sensação do ambiente.
             </p>
           </div>
-        </div>
 
-        <div class="row g-4 mt-4">
-          <div class="col-lg-6 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-design-ap-02.jpg"
-              alt="Design de Interiores de uma cozinha de uma apartamento" class="img-fluid mt-3" />
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/rebaixar-img.jpg" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tom claro" />
+              <div class="card-body text-center p-0 pt-2 pt-md-0">
+                <h5 class="card-title">Rebaixar</h5>
+                <p class="card-text">
+                  Para diminuir o pé direito a dica é usar tons escuros no teto .
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-design-ap-02-2.jpg"
-              alt="Design de Interiores de uma cozinha de uma apartamento" class="img-fluid mt-3" />
-          </div>
-        </div>
 
-        <div class="row g-4 mt-0">
-          <div class="col-lg-6 gy-1 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-design-ap-02-3.jpg"
-              alt="Design de Interiores de uma cozinha de uma apartamento" class="img-fluid mt-3" />
-          </div>
-          <div class="col-lg-6 gy-1 px-0 px-md-2 mt-0">
-            <img src="./assets/images/img-interior-design-ap-02-4.jpg"
-              alt="Design de Interiores de uma cozinha de uma apartamento" class="img-fluid mt-3" />
+          <div class="col-md-4 d-flex flex-column p-0 pt-3 pt-md-0">
+            <div class="card card-pinturas border-0 bg-transparent">
+              <img src="./assets/images/levantar-img.jpg" class="img-fluid img-pinturas-mobile"
+                alt="Imagem de uma sala  com um sofá e paredes pintadas com tom claro" />
+              <div class="card-body text-center p-0">
+                <h5 class="card-title">Levantar</h5>
+                <p class="card-text">
+                  Para aumentar o pé direito a dica é usar tons claros no teto .
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 
   <!-- Footer -->
@@ -346,8 +370,8 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
-    </script>
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
