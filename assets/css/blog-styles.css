@@ -103,7 +103,7 @@ body {
 
 /* --- Section Pinturas --- */
 .section-pinturas {
-  padding-top: 9.69rem;
+  padding-top: 9.69rem !important;
 }
 
 .separator-pinturas {
