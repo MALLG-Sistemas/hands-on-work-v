@@ -25,7 +25,7 @@ O sistema foi idealizado para:
 - **Acessibilidade e Usabilidade:** Proporcionar uma experiência de navegação fluida em dispositivos de diferentes tamanhos, garantindo fácil acesso às informações.
 - **Gestão e Operacionalização:** Oferecer um layout que possibilite uma atualização simples e rápida do conteúdo, facilitando a gestão do site.
 
-_Observação: Home Page está codificada, tanto a versão desktop, quanto a responsiva (mobile), atualmente a página Projetos está em codificação, o site terá três páginas: Home, Projetos e Blog._
+_Observação: O site terá três páginas: Home, Projetos e Blog._
 
 ## Tecnologias Utilizadas
 
