@@ -172,7 +172,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
-  padding-top: 2.19rem;
 }
 
 .carousel-control-next {
@@ -321,8 +320,6 @@ body {
   }
 
   /* --- Seção Banner --- */
-
-  /* --- Seção banner com a imagem de fundo --- */
   .banner {
     background-attachment: scroll;
   }
@@ -362,9 +359,9 @@ body {
     margin-top: 1.25rem;
   }
 
-  .container-services-mobile {
+  /* .container-services-mobile {
     padding: 1.25rem 0.625rem 0rem 0.625rem !important;
-  }
+  } */
 
   .title-service {
     font-size: 2.8125rem;
@@ -422,7 +419,6 @@ body {
 
   .text-carousel {
     font-size: 1.125rem;
-    padding-top: 0.94rem;
   }
 
   .carousel-mobile {
