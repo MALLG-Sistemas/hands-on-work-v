@@ -139,7 +139,6 @@ body {
 .service-card-body {
   display: flex;
   flex-direction: column;
-  gap: 1.938rem;
 }
 
 .title-card-service {
