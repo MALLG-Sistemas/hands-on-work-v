@@ -241,7 +241,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  padding-top: 2.5rem;
 }
 
 /* --- Section Why --- */
@@ -468,7 +467,6 @@ body {
   .text-video {
     font-size: 1.125rem;
     line-height: 1.6875rem;
-    padding-top: 0.625rem;
   }
 
   /* --- Section Why --- */
