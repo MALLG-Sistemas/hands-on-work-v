@@ -268,7 +268,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  padding-top: 2.75rem;
 }
 
 .container-square-main {
@@ -471,7 +470,7 @@ body {
 
   /* --- Section Why --- */
   .section-why {
-    padding-top: 1.25rem;
+    padding-top: 3rem;
   }
 
   .bg-rectangle-three {
@@ -492,7 +491,6 @@ body {
 
   .text-why {
     font-size: 1.125rem;
-    padding-top: 0.625rem;
   }
 
   .container-square-main {
