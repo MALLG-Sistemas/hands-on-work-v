@@ -27,11 +27,11 @@ body {
 
 /* --- Seção Banner --- */
 .banner {
-  background: url("../images/museu-de-arte-contemporanea-banner.jpg");
+  background: url("../images/museu-de-arte-contemporanea-banner.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-position: center;
+  background-repeat: no-repeat; */
   padding-top: 9.375rem;
   height: 50rem;
   width: 100%;
