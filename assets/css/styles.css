@@ -376,20 +376,6 @@ body {
     height: 1100px;
   }
 
-  /* --- Section Video --- */
-  .section-video {
-    padding-top: 5rem;
-  }
-
-  .title-video {
-    font-size: 1.875rem;
-  }
-
-  .text-video {
-    font-size: 1.125rem;
-    line-height: 1.6875rem;
-  }
-
   /* --- Section Why --- */
   .section-why {
     padding-top: 3rem;
