@@ -15,6 +15,12 @@ body {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
+/* --- Classe adicional para espaçamento vertical maior em telas grandes --- */
+.py-lg-6 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
 /* --- Navbar --- */
 .navbar-menu-nav {
   height: 150px;
@@ -34,7 +40,7 @@ body {
   background-color: rgba(111, 115, 95, 0.8) !important;
 }
 
-/* --- Seção Banner --- */
+/* --- Section Banner --- */
 .banner {
   background: url("../images/ipes-house-banner.jpg") no-repeat center center;
   background-attachment: fixed;
@@ -141,38 +147,30 @@ body {
 }
 
 /* --- Section Carousel --- */
-.section-carousel {
-  padding-top: 4.4rem;
+.title-section {
+  font-size: 2.8rem;
 }
 
-.title-carousel {
-  font-size: 2.813rem;
-  font-weight: 700;
-}
-
-.text-carousel {
-  color: #6f6f6f;
+.poppins-font {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.carousel-control-next {
-  margin-right: -60px;
+.carousel-arrow {
   width: 68.8px;
 }
 
-.carousel-control-prev {
+.carousel-arrow.carousel-control-next {
+  margin-right: -60px;
+}
+
+.carousel-arrow.carousel-control-prev {
   margin-left: -60px;
 }
 
-.carousel-control-next-icon-material,
-.carousel-control-prev-icon-material {
+.carousel-arrow-icon {
   font-size: 4.3rem;
-}
-
-.carousel-mobile {
-  display: none;
 }
 
 /* --- Section About --- */
@@ -292,6 +290,22 @@ body {
   margin-left: 665px;
 }
 
+/* --- Media Queries | Tablet --- */
+@media screen and (max-width: 767px) {
+  /* --- Section Carousel --- */
+  .title-section {
+    font-size: 1.875rem;
+  }
+
+  .poppins-font {
+    font-size: 1.125rem;
+  }
+
+  .separator-mobile {
+    width: 30px;
+  }
+}
+
 /* --- Media Queries | Mobile --- */
 @media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
@@ -343,7 +357,7 @@ body {
     font-size: 2.8rem;
   }
 
-  /* --- Cards Services --- */
+  /* --- Cards Services Section --- */
   .service-cards {
     margin-top: 1.25rem;
   }
@@ -363,28 +377,8 @@ body {
   }
 
   /* --- Section Carousel --- */
-  .section-carousel {
-    padding-top: 3rem;
-  }
-
-  .title-carousel {
-    font-size: 1.875rem;
-  }
-
   .separator-mobile {
     width: 30px;
-  }
-
-  .text-carousel {
-    font-size: 1.125rem;
-  }
-
-  .carousel-mobile {
-    display: block;
-  }
-
-  .carousel-desktop {
-    display: none;
   }
 
   /* --- Section About --- */
