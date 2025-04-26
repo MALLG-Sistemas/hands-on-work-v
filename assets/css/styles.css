@@ -39,8 +39,6 @@ body {
   background: url("../images/ipes-house-banner.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
-  /* background-position: center;
-  background-repeat: no-repeat; */
   padding-top: 9.375rem;
   height: 50rem;
   width: 100%;
@@ -115,11 +113,11 @@ body {
 
 /* --- Cards Services --- */
 .service-cards {
-  margin-top: 4.125rem;
-  margin-bottom: 3.5rem;
+  /* margin-top: 4.125rem;
+  margin-bottom: 3.5rem; */
 }
 
-.bg-rectangle {
+/* .bg-rectangle {
   position: absolute;
   top: -50px;
   left: 0;
@@ -127,20 +125,26 @@ body {
   height: 430px;
   background: #f2e7dc;
   z-index: 0;
+} */
+
+.bg-light-custom {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 5%; /* Afastamento de 5% da borda direita */
+  height: 430px;
+  background: #f2e7dc;
+  z-index: 0;
+  width: auto;
 }
 
-.container-icon-card {
+/* .container-icon-card {
   padding: 0.5rem 0.69rem;
 }
-
+*/
 .icon-card {
   font-size: 5.5rem;
   color: #d99197;
-}
-
-.service-card-body {
-  display: flex;
-  flex-direction: column;
 }
 
 .title-card-service {
@@ -153,7 +157,7 @@ body {
 .text-card-service {
   color: #6f6f6f;
   font-family: "Poppins", sans-serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.688rem;
 }
