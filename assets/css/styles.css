@@ -133,7 +133,8 @@ body {
   z-index: 0;
 }
 
-/* --- Responsividade com brakpoints do Bootstrap --- */
+/* --- Responsividade com breakpoints do Bootstrap --- */
+
 @media (max-width: 1400px) {
   .bg-rectangle {
     max-width: 1140px; /* xl */
