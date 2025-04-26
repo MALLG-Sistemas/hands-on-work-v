@@ -21,6 +21,10 @@ body {
   font-weight: 700;
 }
 
+.navbar-scroll {
+  background-color: rgba(111, 115, 95, 0.8) !important;
+}
+
 /* --- Seção Banner --- */
 .banner {
   background: url("../images/z-house-banner.jpg");
