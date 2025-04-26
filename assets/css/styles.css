@@ -39,17 +39,15 @@ body {
   background: url("../images/ipes-house-banner.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
+  /* background-position: center;
+  background-repeat: no-repeat; */
   padding-top: 9.375rem;
-  min-height: 90vh;
+  height: 50rem;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .custom-rectangle-side {
   width: 4.6875rem;
-  min-width: 40px;
-  height: auto;
   opacity: 0.4;
   background: #6f735f;
   mix-blend-mode: multiply;
@@ -58,7 +56,6 @@ body {
 .custom-rectangle {
   display: flex;
   flex-direction: column;
-  width: 100%;
   max-width: 714px;
   background: #bfbeaa;
   box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
@@ -126,38 +123,10 @@ body {
   position: absolute;
   top: -50px;
   left: 0;
-  max-width: 1374px;
-  width: 100%;
+  width: 1374px;
   height: 430px;
   background: #f2e7dc;
   z-index: 0;
-}
-
-/* --- Responsividade com breakpoints do Bootstrap --- */
-
-@media (max-width: 1400px) {
-  .bg-rectangle {
-    max-width: 1140px; /* xl */
-  }
-}
-
-@media (max-width: 1200px) {
-  .bg-rectangle {
-    max-width: 960px; /* lg */
-  }
-}
-
-@media (max-width: 992px) {
-  .bg-rectangle {
-    max-width: 720px; /* md */
-  }
-}
-
-@media (max-width: 768px) {
-  .bg-rectangle {
-    max-width: 540px; /* sm */
-    height: 350px;
-  }
 }
 
 .container-icon-card {
@@ -341,8 +310,8 @@ body {
   margin-left: 665px;
 }
 
-/* --- Media Queries | Telas menores de 576px (Breakpoints do Bootstrap) --- */
-@media screen and (max-width: 576px) {
+/* --- Media Queries | Mobile --- */
+@media screen and (max-width: 430px) {
   /* --- Navbar com menu de navegação --- */
   .navbar .nav-link.active {
     font-weight: 700;
@@ -401,14 +370,41 @@ body {
   }
 
   /* --- Cards Services --- */
+  .service-cards {
+    margin-top: 1.25rem;
+  }
+
   .bg-rectangle {
-    max-width: 100%;
-    height: 996px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 796px;
+    background: #f2e7dc;
+    z-index: 0;
+  }
+
+  .container-icon-card {
+    padding: 0 0.5rem;
+  }
+
+  .icon-card {
+    font-size: 4.5rem;
+  }
+
+  .title-card-service {
+    font-size: 1.875rem;
+    margin: 0;
+  }
+
+  .text-card-service {
+    font-size: 1rem;
+    line-height: 1.4375rem;
   }
 
   /* --- Section Carousel --- */
   .section-carousel {
-    padding-top: 7.55rem;
+    padding-top: 3rem;
   }
 
   .title-carousel {
@@ -433,12 +429,12 @@ body {
 
   /* --- Section About --- */
   .service-about {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
 
   .bg-rectangle-two {
     position: absolute;
-    top: 10px;
+    top: 40px;
     right: 0;
     max-width: 100%;
     width: 100%;
@@ -483,7 +479,7 @@ body {
     max-width: 199px;
     max-height: 580px;
     position: absolute;
-    top: 90px;
+    top: 100px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -506,13 +502,5 @@ body {
   /* --- Footer --- */
   .container-footer-contacts {
     margin-left: 0;
-  }
-}
-
-/* --- Media Queries | Abaixo de 375px --- */
-@media screen and (max-width: 376px) {
-  .bg-rectangle {
-    max-width: 100%;
-    height: 1200px;
   }
 }
