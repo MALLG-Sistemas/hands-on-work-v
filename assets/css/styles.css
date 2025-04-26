@@ -126,10 +126,37 @@ body {
   position: absolute;
   top: -50px;
   left: 0;
-  width: 1374px;
+  max-width: 1374px;
+  width: 100%;
   height: 430px;
   background: #f2e7dc;
   z-index: 0;
+}
+
+/* --- Responsividade com brakpoints do Bootstrap --- */
+@media (max-width: 1400px) {
+  .bg-rectangle {
+    max-width: 1140px; /* xl */
+  }
+}
+
+@media (max-width: 1200px) {
+  .bg-rectangle {
+    max-width: 960px; /* lg */
+  }
+}
+
+@media (max-width: 992px) {
+  .bg-rectangle {
+    max-width: 720px; /* md */
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-rectangle {
+    max-width: 540px; /* sm */
+    height: 350px;
+  }
 }
 
 .container-icon-card {
@@ -313,8 +340,8 @@ body {
   margin-left: 665px;
 }
 
-/* --- Media Queries | Mobile --- */
-@media screen and (max-width: 430px) {
+/* --- Media Queries | Telas menores de 576px (Breakpoints do Bootstrap) --- */
+@media screen and (max-width: 576px) {
   /* --- Navbar com menu de navegação --- */
   .navbar .nav-link.active {
     font-weight: 700;
@@ -373,36 +400,9 @@ body {
   }
 
   /* --- Cards Services --- */
-  .service-cards {
-    margin-top: 1.25rem;
-  }
-
   .bg-rectangle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    max-width: 100%;
     height: 996px;
-    background: #f2e7dc;
-    z-index: 0;
-  }
-
-  .container-icon-card {
-    padding: 0 0.5rem;
-  }
-
-  .icon-card {
-    font-size: 4.5rem;
-  }
-
-  .title-card-service {
-    font-size: 1.875rem;
-    margin: 0;
-  }
-
-  .text-card-service {
-    font-size: 1rem;
-    line-height: 1.4375rem;
   }
 
   /* --- Section Carousel --- */
@@ -505,5 +505,13 @@ body {
   /* --- Footer --- */
   .container-footer-contacts {
     margin-left: 0;
+  }
+}
+
+/* --- Media Queries | Abaixo de 375px --- */
+@media screen and (max-width: 376px) {
+  .bg-rectangle {
+    max-width: 100%;
+    height: 1200px;
   }
 }
