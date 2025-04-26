@@ -21,9 +21,11 @@ body {
   font-weight: 700;
 }
 
-/* --- Seção Banner --- */
+.navbar-scroll {
+  background-color: rgba(111, 115, 95, 0.8) !important;
+}
 
-/* --- Seção banner com a imagem de fundo --- */
+/* --- Seção Banner --- */
 .banner {
   background: url("../images/museu-de-arte-contemporanea-banner.jpg");
   background-attachment: fixed;
@@ -195,8 +197,6 @@ body {
   }
 
   /* --- Seção Banner --- */
-
-  /* --- Seção banner com a imagem de fundo --- */
   .banner {
     background-attachment: scroll;
   }
