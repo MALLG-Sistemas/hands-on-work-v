@@ -34,14 +34,12 @@ body {
   background-color: rgba(111, 115, 95, 0.8) !important;
 }
 /* --- Seção Banner --- */
-
-/* --- Seção banner com a imagem de fundo --- */
 .banner {
-  background: url("../images/ipes-house-banner.jpg");
+  background: url("../images/ipes-house-banner.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-position: center;
+  background-repeat: no-repeat; */
   padding-top: 9.375rem;
   height: 50rem;
   width: 100%;
