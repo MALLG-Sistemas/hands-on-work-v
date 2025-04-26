@@ -111,7 +111,7 @@ body {
   font-weight: 400;
 }
 
-/* --- Cards Services --- */
+/* --- Cards Services Section --- */
 .bg-light-custom {
   right: 5%;
   height: 430px !important;
@@ -340,11 +340,7 @@ body {
   }
 
   .title-service {
-    font-size: 2.8125rem;
-  }
-
-  .text-services {
-    padding-top: 0;
+    font-size: 2.8rem;
   }
 
   /* --- Cards Services --- */
